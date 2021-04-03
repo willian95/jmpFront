@@ -11,7 +11,7 @@
       <div class="header-social">
         <ul>
           <li class="tooltip-i">
-            <a href="#" target="_blank"> <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <a href="{{ url('/carreers') }}"> <i class="fa fa-briefcase" aria-hidden="true"></i>
             </a>
              <span class="tooltip-i_txt">Our branches</span>
           </li>

@@ -44,7 +44,7 @@
         <!-- cursor-->
         <div class="element">
         <div class="element-item"></div>
-        </div>
+      </div>
     <!-- cursor end-->
   
   <!--=============== scripts  ===============-->
