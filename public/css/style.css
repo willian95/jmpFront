@@ -4779,7 +4779,7 @@ div.swiper-5 div.swiper-slide {
 	text-align: center;
 	font-size: 1.1em;
 	outline: 0;
-	background-color: #4899DD;
+	background-color: transparent;
   }
 div.swiper-5 .swiper-button-prev {
 	background: none;
@@ -4860,4 +4860,55 @@ div.swiper-5 .swiper-button-next {
 }
 .rentals-seccion .dec-img img {
     height: 36vh; 
+}
+.links{
+	height: auto!important;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+nav.nav-inner {
+    overflow-y: scroll;
+	height: 100vh!important;
+}
+.nav-scroll-bar-wrap {
+    padding: 0;
+}
+.logo_menu img ,.page-scroll-nav,.swiper-pagination{
+	display: none;
+}
+.sliding-menu ul {
+    grid-template-columns: 1fr;
+}
+.half-hero-wrap h1 {
+    font-size: 16px;
+    line-height: 21px;
+}
+.form-contact div {
+    width: 100%;
+}
+.my-5 {
+    margin-bottom: 0rem!important;
+}
+section {
+    padding: 30px 0;
+ 
+}
+.content-inner .cf-inner {
+
+    padding: 93px 20px;
+    padding-bottom: 89px;
+}
+.dec-img img {
+  
+    height: auto;
+
+}
+.d-flex_info {
+    display: block;
+}
+.links{
+
+    left: auto;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
 }
