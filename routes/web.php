@@ -23,4 +23,6 @@ Route::view('/contact', "contact");
 
 Route::view('/services', "services");
 
+Route::view('/rentals', "rentals");
+
 Route::view('/resources', "resources");

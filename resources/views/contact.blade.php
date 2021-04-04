@@ -84,7 +84,7 @@
                                         </div>
                                         <span>Scroll down to discover</span>
                                     </div>
-                                    <a href="index.html" class=" back-to-home-btn"><span>Back to home</span></a>
+                                    <a href="{{ url('/') }}" class=" back-to-home-btn"><span>Back to home</span></a>
                                 </div>
                             </div>
                             <!-- fixed-top-panel end -->
