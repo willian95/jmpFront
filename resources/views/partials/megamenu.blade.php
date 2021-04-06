@@ -1,34 +1,34 @@
 <!-- MEGA MENU JMP-->
 <div class="nav-holder but-hol quitar-menu  ">
     <div class="nav-scroll-bar-wrap fl-wrap">
-    <a href="index.html" class="ajax logo_menu"><img src="images/logo.png" alt="" /></a>
+    <a href="{{ url('/') }}" class=" logo_menu"><img src="{{asset('images/logo.png') }}" alt="" /></a>
     <div class="nav-container fl-wrap">
         <!-- nav -->
         <nav class="nav-inner" id="menu">
         <ul>
             <div>
-            <li><a class="titulo-nav"  href="">OUR COMPANY</a></li>
+            <li><a class="titulo-nav"  href="" >OUR COMPANY</a></li>
             
-            <li   class="  nav-button but-hol links"><a   href="#sec2" onclick="cambiarColor()" >About</a></li>
-            <li><a href="" class="ajax">History</a></li>
-            <li class="  nav-button but-hol links">
-                <a href="#" onclick="showMission()">Mission</a>
+            <li   class="nav-button but-hol links"><a href="#sec2" onclick="showAbout()" >About</a></li>
+            <li class="nav-button but-hol links"><a href="#sec2" class="" onclick="showHistory()">History</a></li>
+            <li class="nav-button but-hol links">
+                <a href="#sec2" onclick="showMission()">Mission</a>
             </li>
-            <li>
-                <a href="" class="ajax">Core values</a>
+            <li  class="  nav-button but-hol links">
+                <a href="#sec2" class="" onclick="showCore()">Core values</a>
             </li>
-            <li><a href="" class="ajax">QHSE</a></li>
-            <li>
-                <a href="" class="ajax">Policies</a>
+            <li  class="nav-button but-hol links"><a href="#sec2" class="ajax">QHSE</a></li>
+            <li  class="nav-button but-hol links">
+                <a href="#sec2" >Policies</a>
             </li>
-            <li>
-                <a href="" class="ajax">CERTIFICATIONS</a>
+            <li  class="nav-button but-hol links">
+                <a href="#certidications" >CERTIFICATIONS</a>
             </li>
             </div>
             <!---2-->
             <div>
             <li><a class="titulo-nav" href="">SERVICES</a></li>
-            <li><a href="services.html#service1" class="">DIRECTIONAL
+            <li><a href="{{ url('/services/#service1') }}" class="">DIRECTIONAL
                 DRILLING</a></li>
             <li>
                 <a href="services.html#service2" class="">FISHING</a>
@@ -45,9 +45,7 @@
 
             <a href="" class="ajax">UNDERREAMING</a>
             </li>
-            <li>
-                <a href="" class="ajax">CERTIFICATIONS</a>
-            </li>
+          
             </div>
 
             <!---3-->

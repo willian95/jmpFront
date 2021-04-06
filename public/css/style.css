@@ -1,25 +1,15 @@
 @charset "utf-8";
 
-/*======================================
- [ -Main Stylesheet-
-  Theme: Nastik
-  Version: 1.0
-  Last change: 28/09/2019 ]
- ++ Fonts ++
-++ General Style ++
-++ Loader++
-++ Header ++
-++ Navigation ++
-++ Footer ++
-++ Section ++
-++ Portfolio ++
-++ Contacts ++
-++ Blog ++
-++ 404 ++
-++ Responsive ++
-/*-------------Fonts---------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
-/*-------------General Style---------------------------------------*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #fff !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #9e9e9e;
+}
 
 html {
 	overflow-x: hidden !important;
@@ -252,7 +242,11 @@ blockquote p {
 	background-position: center;
 	background-repeat: repeat;
 	background-origin: content-box;
-	hight:60vh;
+
+}
+.service-secction .bg {
+
+height: 60vh!important;
 }
 .overlay {
 	position: absolute;
@@ -263,6 +257,11 @@ blockquote p {
 	background: #000;
 	opacity: 0.4;
 	z-index: 3;
+
+}
+.service-secction .overlay {
+
+	height: 60vh;
 }
 .dark-bg , .dark-content  , .fcw-dec{
 	background:#292929; 
@@ -317,7 +316,7 @@ blockquote p {
 }
 /*------btn------------------------------------------------*/
 .btn {
-	padding: 15px 35px;
+	padding: 15px 25px;
     cursor: pointer;
     background: #292929;
     -webkit-appearance: none;
@@ -566,7 +565,7 @@ nav.nav-inner {
 .sliding-menu a {
 	float: left;
 	padding: 0 0 0 20px;
-	height: 40px;
+	height: 35px;
 
 	position: relative;
 	font-weight: 600;
@@ -2373,6 +2372,12 @@ section {
 .video-promo-text p {
 	text-align: left;
 	color: #fff;
+	
+    font-family: 'Lato', sans-serif;
+}
+p{
+	
+    font-family: 'Lato', sans-serif;
 }
 .pr-list {
 	float:left;
@@ -4774,7 +4779,7 @@ div.swiper-5 div.swiper-slide {
 	text-align: center;
 	font-size: 1.1em;
 	outline: 0;
-	background-color: #4899DD;
+	background-color: transparent;
   }
 div.swiper-5 .swiper-button-prev {
 	background: none;
@@ -4814,7 +4819,7 @@ div.swiper-5 .swiper-button-next {
     justify-content: center;
 }
 .services-slider  .swiper-button-next,.services-slider .swiper-button-prev {
-	  top: 20%;
+	  top: 12%;
 	  background-image: none;
 }
 .services-slider  .swiper-button-prev{
@@ -4829,13 +4834,92 @@ div.swiper-5 .swiper-button-next {
 }
 .swiper-pagination {
 	position: absolute;
-    top: 0;
+	top: -10%;
     right: 0;
     color: #F7F7F7;
     font-size: 124px;
     font-weight: bold;
     text-align: end;
+	z-index: 0;
 }
 .links{
 	top: auto;
+}
+.rentals-slider .bg {
+    height: 40vh!important;
+}
+.rentals-slider  .overlay {
+    height: 40vh;
+}
+.rentals-slider  .content-inner .cf-inner {
+   padding: 0;
+    height: 40vh!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rentals-seccion .dec-img img {
+    height: 36vh; 
+}
+.links{
+	height: auto!important;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+	.fl-btn {
+		
+		width: 100%;
+	}
+	.btn-white {
+	
+		margin-bottom: 50px;
+	}
+	.d-flex_info {
+		display: block!important;
+	}
+nav.nav-inner {
+    overflow-y: scroll;
+	height: 100vh!important;
+}
+.nav-scroll-bar-wrap {
+    padding: 0;
+}
+.logo_menu img ,.page-scroll-nav,.swiper-pagination{
+	display: none;
+}
+.sliding-menu ul {
+    grid-template-columns: 1fr;
+}
+.half-hero-wrap h1 {
+    font-size: 16px;
+    line-height: 21px;
+}
+.form-contact div {
+    width: 100%;
+}
+.my-5 {
+    margin-bottom: 0rem!important;
+}
+section {
+    padding: 30px 0;
+ 
+}
+.content-inner .cf-inner {
+
+    padding: 93px 20px;
+    padding-bottom: 89px;
+}
+.dec-img img {
+  
+    height: auto;
+
+}
+.d-flex_info {
+    display: block;
+}
+.links{
+
+    left: auto;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
 }

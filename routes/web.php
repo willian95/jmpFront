@@ -30,3 +30,7 @@ Route::view('/resources', "resources");
 Route::get("/vacancies/{country_id}", [VacancyController::class, "getVacanciesByCountry"]);
 
 Route::post("/appliance/store", [ApplianceController::class, "storeAppliance"]);
+
+Route::view('/rentals', "rentals");
+
+Route::view('/resources', "resources");
