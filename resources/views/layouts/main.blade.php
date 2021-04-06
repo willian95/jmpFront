@@ -9,6 +9,7 @@
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="{{ asset('css/reset.css') }}" />
   <link type="text/css" rel="stylesheet" href="{{ asset('css/plugins.css') }}" />
   <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}" />
@@ -17,6 +18,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css" />
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/solid.min.css">
+
+  <!-- Bootstrap theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  
   <link type="text/css" rel="stylesheet" href="{{ asset('css/custom.css') }}" />
 </head>
@@ -52,8 +58,13 @@
     <!-- Main end -->
 
     <script src="{{asset('js/jquery.min.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
     <script src="{{asset('js/plugins.js') }}"></script>
     <script src="{{asset('js/scripts.js') }}"></script>
+    
+
 
     @stack("scripts")
 
