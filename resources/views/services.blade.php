@@ -72,7 +72,7 @@
                     <!--section end -->
                     <!--section end -->
                     <section class="dark-bg bot-element" id="service2">
-                        <div class="container">
+                        <div class="">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -144,7 +144,7 @@
 
                     <!--section end -->
                     <section class="dark-bg bot-element" id="service4">
-                        <div class="container">
+                        <div class="">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -180,7 +180,7 @@
                     <!--section end -->
                     <!--section end -->
                     <section class="bot-element bg--ligth" id="service5">
-                        <div class="container">
+                        <div class="">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -214,7 +214,7 @@
                     <!--section end -->
                     <!--section end -->
                     <section class="dark-bg bot-element" id="service6">
-                        <div class="container">
+                        <div class="">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-6">

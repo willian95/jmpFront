@@ -316,7 +316,7 @@ height: 60vh!important;
 }
 /*------btn------------------------------------------------*/
 .btn {
-	padding: 15px 35px;
+	padding: 15px 25px;
     cursor: pointer;
     background: #292929;
     -webkit-appearance: none;
@@ -4865,6 +4865,17 @@ div.swiper-5 .swiper-button-next {
 	height: auto!important;
 }
 @media (min-width: 0px) and (max-width: 768px) {
+	.fl-btn {
+		
+		width: 100%;
+	}
+	.btn-white {
+	
+		margin-bottom: 50px;
+	}
+	.d-flex_info {
+		display: block!important;
+	}
 nav.nav-inner {
     overflow-y: scroll;
 	height: 100vh!important;
