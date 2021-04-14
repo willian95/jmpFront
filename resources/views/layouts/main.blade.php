@@ -63,6 +63,43 @@
     <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
     <script src="{{asset('js/plugins.js') }}"></script>
     <script src="{{asset('js/scripts.js') }}"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+
+      $("#formSubmit").submit(function(e) {
+
+        e.preventDefault(); // avoid to execute the actual submit of the form.
+        let name =    $("#form-name").val()
+        let email =   $("#form-email").val()
+        let company = $("#form-company").val()
+        let address = $("#form-address").val()
+        let message = $("#form-message").val()
+
+        $.ajax({
+          type: "POST",
+          url: "{{url('/contact-form')}}",
+          data: {name: name, email: email, company: company, address: address, text: message, _token: "{{ csrf_token() }}"}, // serializes the form's elements.
+          success: function(data)
+          {
+            swal({
+              text:data.msg,
+              icon:"success"
+            })
+
+            $("#form-name").val("")
+            $("#form-email").val("")
+            $("#form-company").val("")
+            $("#form-address").val("")
+            $("#form-message").val("")
+
+          }
+        });
+
+
+      });
+
+    </script>
   
 
   @stack("scripts")

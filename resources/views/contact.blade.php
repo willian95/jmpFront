@@ -149,25 +149,37 @@
                                     </div>
                                     <div id="contact-form" class="cf-wrap">
                                         <div id="message"></div>
-                                        <form class="custom-form" action="php/contact.php" name="contactform"
-                                            id="contactform">
+                                        <form class="custom-form" 
+                                            id="formSubmit">
                                             <fieldset>
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <label><i class="fal fa-user"></i></label>
-                                                        <input type="text" name="name" id="name"
-                                                            placeholder="Your Name *" value="" />
+                                                        <input type="text" name="name" id="form-name"
+                                                            placeholder="Your Name *" value="" required/>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <label><i class="fal fa-envelope"></i> </label>
-                                                        <input type="text" name="email" id="email"
-                                                            placeholder="Email Address *" value="" />
+                                                        <input type="text" name="email" id="form-email"
+                                                            placeholder="Email Address *" value="" required />
                                                     </div>
                                                 </div>
-                                                <textarea name="comments" id="comments" cols="40" rows="3"
-                                                    placeholder="Your Message:"></textarea>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <label><i class="fas fa-map-marker-alt"></i></label>
+                                                        <input type="text" name="name" id="form-address"
+                                                            placeholder="Address *" value="" required/>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <label><i class="fas fa-building"></i> </label>
+                                                        <input type="text" name="email" id="form-company"
+                                                            placeholder="Company *" value="" required />
+                                                    </div>
+                                                </div>
+                                                <textarea name="comments" id="form-message" cols="40" rows="3"
+                                                    placeholder="Your Message:" required></textarea>
                                                 <div class="clearfix"></div>
-                                                <button class="btn   color-bg" id="submit">Send Message</button>
+                                                <button class="btn btn-dark color-bg">Send Message</button>
                                             </fieldset>
                                         </form>
                                     </div>

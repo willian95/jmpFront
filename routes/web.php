@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\VacancyController;
 use App\Http\Controllers\ApplianceController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,7 @@ Route::post("/appliance/store", [ApplianceController::class, "storeAppliance"]);
 Route::view('/rentals', "rentals");
 
 Route::view('/resources', "resources");
+
+Route::post("contact-form", [ContactController::class, "contact"]);
+
+

@@ -87,8 +87,8 @@
   <script>
     
     var vacancies = []
-    var countryId = 3
-    var countryName = "España"
+    var countryId = 2
+    var countryName = "USA"
     var vacancyId = 0
 
     $(document).ready(function(){

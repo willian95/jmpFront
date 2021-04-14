@@ -10,23 +10,23 @@
                       FORM
                     </div>
                     <div class="footer-box-item fl-wrap">
-                      <form action="" class="form-contact">
+                      <form action="" class="form-contact" id="formSubmit">
                         <div >
-                          <input type="text" placeholder="name">
+                          <input type="text" placeholder="name" id="form-name" required>
                         </div>
                         <div>
-                          <input type="text" placeholder="email">
+                          <input type="text" placeholder="email" id="form-email" required>
                         </div>
                         <div >
-                          <input type="text" placeholder="company">
+                          <input type="text" placeholder="company" id="form-company" required>
                         </div>
                         <div>
-                          <input type="text" placeholder="address">
+                          <input type="text" placeholder="address" id="form-address" required>
                         </div>
                         <div style="    width: 100%;">
-                          <textarea name="" placeholder="message" id="" cols="30" rows="5"></textarea>
+                          <textarea placeholder="message" id="form-message" cols="30" rows="5" required></textarea>
                         </div>
-
+                        <button class="btn btn-danger">Submit</button>
                       </form>
                     </div>
                   </div>
