@@ -74,6 +74,72 @@
 </div>
 </div>
 
+<!-- Modal -->
+<div class="modal fade modal-careers" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Position Name</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div>
+        
+
+          <form class=" custom-form" method="post" action="" enctype="multipart/form-data" id="myform">
+            <div class="form-group">
+              <i class="fal fa-user"></i>
+              <input type="text" class="form-control" placeholder="Name & Last Name" id="form-name">
+            </div>
+            <div class="form-group">
+              <i class="fal fa-envelope"></i>
+              <input type="text" class="form-control" placeholder="Email " id="form-email">
+            </div>
+
+            <div class="form-group">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+
+              <input type="text" class="form-control" placeholder="Phone number" id="form-phone">
+            </div>
+
+            <div>
+
+               
+                <div class="form-group">
+               
+                  <label for="inputGroupFile01">Upload CV
+                  </label>
+                  <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+         
+            </div>
+
+            <div class="alert alert-success" role="alert" id="spinner" style="display: none">
+              <p class="text-center">
+              Uploading Info
+              </p>
+            </div>
+
+            <div class="alert-area">
+
+
+            </div>
+            
+
+
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="storeAppliance()">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--content  end -->
 <!--footer-->
@@ -235,70 +301,5 @@
   
   </script>
 
-    <!-- Modal -->
-<div class="modal fade modal-careers" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Position Name</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div>
-        
-
-          <form class=" custom-form" method="post" action="" enctype="multipart/form-data" id="myform">
-            <div class="form-group">
-              <i class="fal fa-user"></i>
-              <input type="text" class="form-control" placeholder="Name & Last Name" id="form-name">
-            </div>
-            <div class="form-group">
-              <i class="fal fa-envelope"></i>
-              <input type="text" class="form-control" placeholder="Email " id="form-email">
-            </div>
-
-            <div class="form-group">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-
-              <input type="text" class="form-control" placeholder="Phone number" id="form-phone">
-            </div>
-
-            <div>
-
-               
-                <div class="form-group">
-               
-                  <label for="inputGroupFile01">Upload CV
-                  </label>
-                  <input type="file" class="form-control" id="inputGroupFile01">
-                </div>
-         
-            </div>
-
-            <div class="alert alert-success" role="alert" id="spinner" style="display: none">
-              <p class="text-center">
-              Uploading Info
-              </p>
-            </div>
-
-            <div class="alert-area">
-
-
-            </div>
-            
-
-
-          </form>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" onclick="storeAppliance()">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 @endpush
