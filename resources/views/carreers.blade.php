@@ -74,7 +74,17 @@
 </div>
 </div>
 
-<!-- Modal -->
+
+<!--content  end -->
+<!--footer-->
+@include("partials.footer")
+<!--footer  end -->
+
+@endsection
+
+@push('scripts')
+  
+  <!-- Modal -->
 <div class="modal fade modal-careers" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -141,15 +151,6 @@
 </div>
 
 
-<!--content  end -->
-<!--footer-->
-@include("partials.footer")
-<!--footer  end -->
-
-@endsection
-
-@push('scripts')
-  
   <script>
     
     var vacancies = []
