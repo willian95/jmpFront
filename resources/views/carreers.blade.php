@@ -101,17 +101,17 @@
           <form class=" custom-form" method="post" action="" enctype="multipart/form-data" id="myform">
             <div class="form-group">
               <i class="fal fa-user"></i>
-              <input type="text" class="form-control" placeholder="Name & Last Name" id="form-name">
+              <input type="text" class="form-control" placeholder="Name & Last Name" id="formName">
             </div>
             <div class="form-group">
               <i class="fal fa-envelope"></i>
-              <input type="text" class="form-control" placeholder="Email " id="form-email">
+              <input type="text" class="form-control" placeholder="Email " id="formEmail">
             </div>
 
             <div class="form-group">
               <i class="fa fa-phone" aria-hidden="true"></i>
 
-              <input type="text" class="form-control" placeholder="Phone number" id="form-phone">
+              <input type="text" class="form-control" placeholder="Phone number" id="formPhone">
             </div>
 
             <div>
@@ -243,13 +243,13 @@
         var files = $('#inputGroupFile01')[0].files;
         $("#spinner").css("display", "block")
 
-        let name = $("#form-name").val()
+        let name = $("#formName").val()
         console.log(name)
         
            fd.append('file',files[0]);
-           fd.append("name", )
-           fd.append("email", $("#form-email").val())
-           fd.append("phone", $("#form-phone").val())
+           fd.append("name", name)
+           fd.append("email", $("#formEmail").val())
+           fd.append("phone", $("#formPhone").val())
            fd.append("vacancyId", vacancyId)
            fd.append("_token", "{{ csrf_token() }}")
 
