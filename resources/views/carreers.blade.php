@@ -175,9 +175,12 @@
         var fd = new FormData();
         var files = $('#inputGroupFile01')[0].files;
         $("#spinner").css("display", "block")
+
+        let name = $("#form-name").val()
+        console.log(name)
         
            fd.append('file',files[0]);
-           fd.append("name", $("#form-name").val())
+           fd.append("name", )
            fd.append("email", $("#form-email").val())
            fd.append("phone", $("#form-phone").val())
            fd.append("vacancyId", vacancyId)
