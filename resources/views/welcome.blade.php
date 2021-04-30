@@ -617,16 +617,16 @@
 
   //***********************************informacion*********************************************** */
   var missionTitle = "Mission"
-  var missionDescription = "Lorem lorem lorem lorem lorem lorem lorem lorem lorem"
+  var missionDescription = "John M. Phillips adds value to our clients’ projects by providing unsurpassed high-quality products and services at a competitive cost. "
   var missionImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
-  var missionDescriptionTwo = "xxx"
+  var missionDescriptionTwo = "Our ability to execute at the required level is because of our key assets—our people. Our approach is efficient and safe for our employees, our clients and our environment. JMP follows a continuous improvement path in line with our service quality program, that we proudly refer to as “The JMP Way”"
   //***********************************informacion*********************************************** */
 
   //***********************************informacion*********************************************** */
   var historyTitle = "History"
-  var historyDescription = "Lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+  var historyDescription = "John M. Phillips was established in Signal Hill, CA and since 1952 offers a wide variety of services to the west coast oilfield and geothermal market. One of our core business since our early days, has been the rental of equipment: from a small spool, to a large bore BOP, handling tools, drilling tools, etc. In 1988 we started offering fishing services for both cased on open hole and in 2009, as part of an expansion campaign we began our Directional Drilling Services division."
   var historyImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
-  var historyDescriptionTwo = "Lorem lorem lorem lorem lorem lorem lorem lorem lorem"
+  var historyDescriptionTwo = "We have participated in international projects in Central and South America, Australia, Middle East, among others. In 2012 we started operations in Chile and in 2017 we have expanded our presence to Bolivia, Argentina and Colombia. Our holistic approach to provide services at the highest standards, through a highly skilled service delivery team using internationally recognized tools and equipment, along with a unique flexibility to adapt to our client needs and a firm commitment to provide solutions as a partner, has driven a very successful growth."
   //***********************************informacion*********************************************** */
 
   //***********************************informacion*********************************************** */
@@ -635,15 +635,25 @@
   var coreImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
   var coreDescriptionTwo = "Service • Ethics • Commitment • Integrity • Innovation • Teamwork • Honesty • Communication • Accountability."
   //***********************************informacion*********************************************** */
+ //***********************************informacion*********************************************** */
+ var qhseTitle = "Health, Safety & Environmental "
+  var qhseDescription = "ohn M. Phillips LLC will provide our customers with quality products and services that will meet or exceed their requirements. These quality products and services will result from the efforts of John M. Phillips LLC personnel and suppliers. All employees shall be properly educated to the quality policy. "
+  var qhseImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
+  var qhseDescriptionTwo = "Management shall take all necessary measures to assure that the quality policy is understood, implemented and maintained throughout all levels of the company."
+  //***********************************informacion*********************************************** */
+ //***********************************informacion*********************************************** */
+ var poliTitle = "Policies "
+  var poliDescription = "JMP knows how important it is to focus on its activities in compliance not only with legal requirements Of every country in which she is present, she seeks to go further with Organizational Policies that protect her "
+  var poliImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
+  var poliDescriptionTwo = " Employees and third parties in all HSE themes. To this end, it has the following policies:• Arms, Alcohol and Drug Policy • Non- Smoking Policy • Road Safety Policy • Mutual Respect Policy • Health and Safety Policy at Work" 
+  //***********************************informacion*********************************************** */
 
-
-
-
-
-
-
-
-
+   //***********************************informacion*********************************************** */
+ var certificationsTitle = "Certifications"
+  var certificationsDescription = "JMP creates and aligns with the most recognized standards in the areas of quality, health, work safety and environment. The company has ISO 9001:2015, ISO14001:2015, OHSAS 18001:2007 in all countries where JMP is present. "
+  var certificationsImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
+  var certificationsDescriptionTwo = "JMP is also in the transition of ISO 45001:2018 while it's being completed, JMP is also working on  itt's GIS to the API Q2 norm. In addition, in countries like Colombia it has the RUC certification, which is required for a large quantity of operators."
+  //***********************************informacion*********************************************** */
 
   function showAbout() {
     $(".title-change").html(aboutTitle)
@@ -672,6 +682,27 @@
     $(".image-change").attr("src", coreImage)
     $(".description-change-two").html(coreDescriptionTwo)
   }
+  function showQhse() {
+    $(".title-change").html(qhseTitle)
+    $(".description-change").html(qhseDescription)
+    $(".image-change").attr("src", qhseImage)
+    $(".description-change-two").html(qhseDescriptionTwo)
+  }
+  function showPolicies() {
+    $(".title-change").html(poliTitle)
+    $(".description-change").html(poliDescription)
+    $(".image-change").attr("src", poliImage)
+    $(".description-change-two").html(poliDescriptionTwo)
+  }
+  function showCertifications() {
+    $(".title-change").html(certificationsTitle)
+    $(".description-change").html(certificationsDescription)
+    $(".image-change").attr("src", certificationsImage)
+    $(".description-change-two").html(certificationsDescriptionTwo)
+  }
+
+
+  
 </script>
 
 @endpush

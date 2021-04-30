@@ -17,12 +17,12 @@
             <li  class="  nav-button but-hol links">
                 <a href="#sec2" class="" onclick="showCore()">Core values</a>
             </li>
-            <li  class="nav-button but-hol links"><a href="#sec2" class="ajax">QHSE</a></li>
+            <li  class="nav-button but-hol links"><a href="#sec2" onclick="showQhse()">QHSE</a></li>
             <li  class="nav-button but-hol links">
-                <a href="#sec2" >Policies</a>
+                <a href="#sec2" onclick="showPolicies()" >Policies</a>
             </li>
             <li  class="nav-button but-hol links">
-                <a href="#certidications" >CERTIFICATIONS</a>
+                <a href="#certidications" onclick="showCertification()">CERTIFICATIONS</a>
             </li>
             </div>
             <!---2-->
