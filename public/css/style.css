@@ -2537,7 +2537,7 @@ p{
 	align-items: center;
 }
 .content-front {
-	background: #292929;
+	background: transparent;
 	position:relative;
 }
 .cf-inner:before {

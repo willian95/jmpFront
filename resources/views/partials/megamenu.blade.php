@@ -22,7 +22,7 @@
                 <a href="#sec2" onclick="showPolicies()" >Policies</a>
             </li>
             <li  class="nav-button but-hol links">
-                <a href="#certidications" onclick="showCertification()">CERTIFICATIONS</a>
+                <a href="#sec2" onclick="showCertification()">CERTIFICATIONS</a>
             </li>
             </div>
             <!---2-->

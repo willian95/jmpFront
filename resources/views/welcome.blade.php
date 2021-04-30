@@ -564,17 +564,11 @@
         <span class="fl-wrap"></span>
       </div>
 
-      <section id="certidications" class="dark-bg bot-element img-certificacion" style="background-image: url(https://c8.alamy.com/compes/2a00dx5/reacondicionamiento-trabajando-en-una-plataforma-previamente-perforados-y-tratando-de-restablecer-la-produccion-a-traves-de-la-reparacion-tonificado-2a00dx5.jpg);">
+      <!----<section id="certidications" class="dark-bg bot-element img-certificacion" style="background-image: url(https://c8.alamy.com/compes/2a00dx5/reacondicionamiento-trabajando-en-una-plataforma-previamente-perforados-y-tratando-de-restablecer-la-produccion-a-traves-de-la-reparacion-tonificado-2a00dx5.jpg);">
         <div class="container">
           <div class="container">
             <div class="row">
-              <!---<div class="col-md-6">
-                      <div class="video-box dec-img fl-wrap">
-                        <img src="images/all/1.jpg" alt="" class="respimg" />
-                        <a class="video-box-btn image-popup" href="https://vimeo.com/34741214"><i
-                            class="fas fa-play"></i></a>
-                      </div>
-                    </div>---->
+            
               <div class="col-md-12">
                 <div class="video-promo-text fl-wrap mar-top">
                   <h3>CERTIFICATIONS</h3>
@@ -585,14 +579,14 @@
                     posuere sapien vitae lectus suscipit, et pulvinar
                     nisi tincidunt. Aliquam erat volutpat.
                   </p>
-                  <!---<a href="#" class="btn fl-btn color-bg"></a>---->
+                
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="hero-corner"></div>
-      </section>
+      </section>-->
       <!--section end -->
 
       <div class="limit-box fl-wrap"></div>
