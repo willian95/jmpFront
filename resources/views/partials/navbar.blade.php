@@ -13,7 +13,7 @@
           <li class="tooltip-i">
             <a href="{{ url('/carreers') }}"> <i class="fa fa-briefcase" aria-hidden="true"></i>
             </a>
-             <span class="tooltip-i_txt">Our branches</span>
+             <span class="tooltip-i_txt">Carrers</span>
           </li>
           <li class="tooltip-i">
             <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -35,6 +35,6 @@
       <div class="folio-btn">
         <a class="folio-btn-item aja " href="{{ url('/contact') }}"><i class="fa fa-industry" aria-hidden="true"></i>
         </a>
-        <span class="folio-btn-tooltip">Contact</span>
+        <span class="folio-btn-tooltip">Contact  / Our branches</span>
       </div>
     </header>

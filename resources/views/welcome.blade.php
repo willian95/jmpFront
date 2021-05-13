@@ -174,35 +174,7 @@
               <div class="main-about fl-wrap">
 
                 <h5 class="description-change-two">We are a global family working as one team to create lasting impact for ourselves, our customers, and the communities where we live and work. We take responsibility for each other and our company’s future, knowing that personal ownership leads to broader success. We trust in our personnel and products and see what others do not and we act. Through business innovation, new innovative products, and service delivery, we are driven to power the industry that powers the world better. We believe in service above all since our singular goal is to move our customers’ business forward. This drives us to anticipate our customers’ needs and work with them to deliver the finest products and services on time and on budget.</h5>
-                <!----  <h5>COMPANY
-                        OVERVIEW</h5>
-                      <h2>
-                        Through business innovation, new innovative
-                        products, and service delivery
-                        <span style="color:#a90414;"> Innovative solutions</span> to boost
-
-                      </h2>--->
-
-                <!--    <div class="dec-list fl-wrap">
-                        <ul>
-                          <li>
-                            Leverage agile frameworks to provide a robust
-                            synopsis.
-                          </li>
-                          <li>
-                            Iterative approaches to corporate strategy foster.
-                          </li>
-                          <li>
-                            Bring to the table win-win survival strategies.
-                          </li>
-                          <li>
-                            Scalable gun control breakthroughs social
-                            movement.
-                          </li>
-                        </ul>
-                      </div>--->
-                <a href="{{ url('/services') }}" class="btn  fl-btn color-bg">Services</a>
-
+             
               </div>
             </div>
           </div>

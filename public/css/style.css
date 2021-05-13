@@ -419,6 +419,11 @@ height: 60vh!important;
 	background:#fff;
 	transition: all 0.2s ease-in-out;
 }
+.nav-button-2{
+	height: auto;
+
+	top: auto;
+}
 .nav-button:hover span:before {
 	width:100%;
 }
