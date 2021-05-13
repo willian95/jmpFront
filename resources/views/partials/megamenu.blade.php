@@ -22,28 +22,28 @@
                 <a href="#sec2" onclick="showPolicies()" >Policies</a>
             </li>
             <li  class="nav-button but-hol links">
-                <a href="#sec2" onclick="showCertification()">CERTIFICATIONS</a>
+                <a href="#sec2" onclick="showCertifications()">CERTIFICATIONS</a>
             </li>
             </div>
             <!---2-->
             <div>
             <li><a class="titulo-nav" href="">SERVICES</a></li>
-            <li><a href="{{ url('/services/#service1') }}" class="">DIRECTIONAL
+            <li class="nav-button nav-button-2"><a href="{{ url('/services/#service1') }}" class="">DIRECTIONAL
                 DRILLING</a></li>
-            <li>
-                <a href="services.html#service2" class="">FISHING</a>
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/services/#service2') }}" class="">FISHING</a>
             </li>
-            <li><a href="services.html#service4" class="">WHIPSTOCKS</a></li>
-            <li>
-            <li><a href="" class="ajax">SURVEYING</a></li>
-            <li>
-                <a href="" class="ajax">WORKOVER
+            <li class="nav-button nav-button-2"><a href="{{ url('/services/#service3') }}" class="">WHIPSTOCKS</a></li>
+          
+            <li class="nav-button nav-button-2"><a href="{{ url('/services/#service4') }}" class="">SURVEYING</a></li>
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/services/#service5') }}" class="">WORKOVER
                 AND
                 TRUTUBING</a>
             </li>
 
-
-            <a href="" class="ajax">UNDERREAMING</a>
+            <li class="nav-button nav-button-2">
+            <a href="{{ url('/services/#service6') }}" class="">UNDERREAMING</a>
             </li>
           
             </div>
@@ -51,31 +51,31 @@
             <!---3-->
             <div>
             <li><a class="titulo-nav" href="">RENTALS</a></li>
-            <li><a href="" class="ajax">BOP'S &
+            <li class="nav-button nav-button-2"><a href="{{ url('/rentals/#rentals1') }}" class="">BOP'S &
                 PRESSURE
                 CONTROL
                 </a></li>
-            <li><a href="" class="ajax">MUD PUMPS
+            <li class="nav-button nav-button-2"><a href="{{ url('/rentals/#rentals2') }}" class="">MUD PUMPS
                 & SYSTEMS</a></li>
-            <li>
-                <a href="" class="ajax">POWER SWIVELS
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/rentals/#rentals3') }}" class="">POWER SWIVELS
                 </a>
             </li>
-            <li>
-                <a href="" class="ajax">HANDLING TOOLS</a>
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/rentals/#rentals4') }}" class="">HANDLING TOOLS</a>
             </li>
-            <li><a href="" class="ajax">DOWNHOLE TOOLS</a></li>
-            <li>
-                <a href="" class="ajax">WORKOVER TOOLS
+            <li class="nav-button nav-button-2"><a href="" class="">DOWNHOLE TOOLS</a></li>
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/rentals/#rentals5') }}" class="">WORKOVER TOOLS
                 </a>
             </li>
-            <li>
-                <a href="" class="ajax">FISHING TOOLS
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/rentals/#rentals6') }}" class="">FISHING TOOLS
                 </a>
             </li>
             </div>
             <!---4-->
-            <div>
+           <!---- <div>
             <li><a class="titulo-nav" href="">MARKETS</a></li>
             <li><a href="" class="ajax">OIL & GAS
 
@@ -93,7 +93,7 @@
             <li><a href="" class="btn-custom">CAREERS</a></li>
 
 
-            </div>
+            </div>--->
         </ul>
         </nav>
         <!-- nav end-->

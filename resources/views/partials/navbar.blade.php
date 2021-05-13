@@ -1,5 +1,5 @@
 <header class="main-header">
-      <a href="{{ url('/') }}" class="logo-holder ajax"><img src="{{asset('images/iso.png') }}" alt="" /></a>
+      <a href="{{ url('/') }}" class="logo-holder"><img src="{{asset('images/iso.png') }}" alt="" /></a>
       <!-- nav-button-wrap-->
       <div class="nav-button but-hol">
         <span class="nos"></span>
@@ -13,7 +13,7 @@
           <li class="tooltip-i">
             <a href="{{ url('/carreers') }}"> <i class="fa fa-briefcase" aria-hidden="true"></i>
             </a>
-             <span class="tooltip-i_txt">Our branches</span>
+             <span class="tooltip-i_txt">Carrers</span>
           </li>
           <li class="tooltip-i">
             <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -26,7 +26,7 @@
             <span class="tooltip-i_txt">Phone</span>
           </li>
           <li class="tooltip-i">
-            <a href="mailto:lorem@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <a href="mailto:info@johnmphillips.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
             <span class="tooltip-i_txt">Contact</span>
           </li>
@@ -35,6 +35,6 @@
       <div class="folio-btn">
         <a class="folio-btn-item aja " href="{{ url('/contact') }}"><i class="fa fa-industry" aria-hidden="true"></i>
         </a>
-        <span class="folio-btn-tooltip">Contact</span>
+        <span class="folio-btn-tooltip">Contact  / Our branches</span>
       </div>
     </header>
