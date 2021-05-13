@@ -77,7 +77,7 @@
                 <span>&#169; JMP 2021 / All rights reserved. </span>
               </div>
               <!-- policy-box end-->
-              <div class="to-top to-top-btn color-bg">
+              <div class="to-top to-top-btn ">
                 <span>To top</span>
               </div>
             </div>

@@ -1185,3 +1185,41 @@ $( document ).ready(function() {
       $('#bloque_enlaces').hide(); 
   });
 });
+
+$(document).ready(function() {
+  // Swiper: Slider
+      new Swiper('.swiper-about', {
+        loop: true,
+	//speed: 6000,
+  //grabCursor: true,
+        //  nextButton: '.swiper-button-next',
+          //prevButton: '.swiper-button-prev',
+          slidesPerView: 1,
+          arrows:true,
+          autoplay: {
+            speed: 5000,
+            disableOnInteraction: false
+          },
+          
+          paginationClickable: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+          },
+          breakpoints: {
+              1920: {
+                  slidesPerView: 1,
+              },
+              1028: {
+                  slidesPerView: 1,
+              },
+              480: {
+                  slidesPerView: 1,
+              }
+          }
+      });
+  });
+  
+  $('.blog-li').on('click', function(){
+    $('.blog-ul').css('display','none');
+ })

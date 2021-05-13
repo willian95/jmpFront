@@ -95,16 +95,19 @@
                                     <div class="section-title fl-wrap">
                                         <h3>Contact details</h3>
                                         <div class="category-filter blog-btn-filter">
-                                            <div class="blog-btn"><i class="fa fa-globe" aria-hidden="true"></i>
-                                                EEUU               <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                            <div class="blog-btn">
+                                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                               <div class="names-filt"> USA   </div>         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                             </div>
-                                            <ul>
-                                                <li><a href="#">lorem</a></li>
-                                                <li><a href="#">lorem</a></li>
-                                                <li><a href="#">lorem</a></li>
+                                            <ul class="blog-ul">
+                                                <li ><a class="blog-li"onclick="col()" href="#">Colombia</a></li>
+                                                <li class="blog-li"><a onclick="ar()" href="#">Argentina </a></li>
+                                                <li class="blog-li"><a onclick="cl()" href="#">Chile</a></li>
+                                                <li class="blog-li"><a onclick="bl()" href="#">Bolivia</a></li>
+                                                <li class="blog-li"><a onclick="us()" href="#">USA</a></li>
                                             </ul>
                                         </div>
-                                            
+                                        
                                     </div>
                                     
                                     <!--process-wrap  -->
@@ -114,21 +117,19 @@
                                                 <i class="fal fa-mobile-android"></i>
                                                 <h4>Phone Number</h4>
                                                 <div class="clearfix"></div>
-                                                <a href="#" class="contact-link">562.595.7363</a>
+                                                <a  class="contact-link phone">+1 (562) 595-7363</a>
                                             </li>
                                             <li>
                                                 <i class="fal fa-compass"></i>
                                                 <h4>Address</h4>
                                                 <div class="clearfix"></div>
-                                                <a href="#" class="contact-link"> Dawson Ave
-                                                    Signal Hill, CA
-                                                    90755</a>
+                                                <a  class="contact-link ubicacion"> JMP Corporate Headquarters Signal Hill, CA, USA 90755</a>
                                             </li>
                                             <li>
                                                 <i class="fal fa-envelope-open"></i>
                                                 <h4>E-mail</h4>
                                                 <div class="clearfix"></div>
-                                                <a href="#" class="contact-link">lorem@ipsum.com</a>
+                                                <a  class="contact-link emails">info@johnmphillips.com</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -207,5 +208,63 @@
         </div>
         <!-- content-holder end -->
 
+        <script>
+                                                 //***********************************informacion*********************************************** */
+                                                    var PhoneNumberCol = "+57 (1) 622 3545"
+                                                    var NameCol = "Colombia"
+                                                    var ubicCol = "JMP Colombia - Bogotá, D.C."
+                                                    var EmailCol = "infocol@johnmphillips.com"
+                                                    function col() {
+                                                        $(".phone").html(PhoneNumberCol);
+                                                        $(".names-filt").html(NameCol)
+                                                        $(".ubicacion").html(ubicCol )
+                                                        $(".emails").html(EmailCol)
+                                                    }
 
+                                                    var PhoneNumberAr = "+ 54 (9) 2974 17-0746"
+                                                    var NameAr = "Argentina"
+                                                    var ubicAr = "JMP Argentina - Buenos Aires"
+                                                    var EmailAr = "info@johnmphillips.com"
+                                                    function ar() {
+                                                        $(".phone").html(PhoneNumberAr);
+                                                        $(".names-filt").html(NameAr)
+                                                        $(".ubicacion").html(ubicAr )
+                                                        $(".emails").html(EmailAr)
+                                                    }
+
+                                                    var PhoneNumberCl = "+ 56 (61) 230-320"
+                                                    var NameCl = "Chile"
+                                                    var ubicCl = "JMP Chile - Punta Arenas"
+                                                    var EmailCl = "info@johnmphillips.com"
+                                                    function cl() {
+                                                        $(".phone").html(PhoneNumberCl);
+                                                        $(".names-filt").html(NameCl)
+                                                        $(".ubicacion").html(ubicCl )
+                                                        $(".emails").html(EmailCl)
+                                                    }
+
+                                                    var PhoneNumberbl = "+57 (1) 622 3545"
+                                                    var Namebl = "Bolivia"
+                                                    var ubicbl = "JMP BolIvia – La Paz"
+                                                    var Emailbl = "info@johnmphillips.com"
+                                                    function bl() {
+                                                        $(".phone").html(PhoneNumberbl);
+                                                        $(".names-filt").html(Namebl)
+                                                        $(".ubicacion").html(ubicbl )
+                                                        $(".emails").html(Emailbl)
+                                                    }
+
+                                                    var PhoneNumberus = "+1 (562) 595-7363 "
+                                                    var Nameus = "USA"
+                                                    var ubicus = "JMP Corporate Headquarters Signal Hill, CA, USA 90755"
+                                                    var Emailus = "info@johnmphillips.com"
+                                                    function us() {
+                                                        $(".phone").html(PhoneNumberus);
+                                                        $(".names-filt").html(Nameus)
+                                                        $(".ubicacion").html(ubicus )
+                                                        $(".emails").html(Emailus)
+                                                    }
+                                                   
+                                                   
+                                            </script>
 @endsection
