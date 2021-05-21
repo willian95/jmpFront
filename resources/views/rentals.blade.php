@@ -20,7 +20,7 @@
         <nav class="scroll-init color2-bg">
           <ul class="no-list-style">
             <li>
-              <a class="scroll-link fbgs" href="#sec2" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
+              <a class="scroll-link fbgs" href="#about" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
             </li>
             <li>
               <a class="scroll-link fbgs" href="#sec3" data-bgscr="images/bg/long/5.jpg" data-bgtex="services"><span>Services</span></a>

@@ -123,7 +123,7 @@
         <nav class="scroll-init color2-bg">
           <ul class="no-list-style">
             <li>
-              <a class="scroll-link fbgs" href="#sec2" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
+              <a class="scroll-link fbgs" href="#about" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
             </li>
             <li>
               <a class="scroll-link fbgs" href="#sec3" data-bgscr="images/bg/long/5.jpg" data-bgtex="services"><span>Services</span></a>
@@ -146,7 +146,7 @@
       </div>
       <!--page-scroll-nav end-->
       <!--section -->
-      <section id="sec2" class="hidden-section scroll-con-sec bot-element">
+      <section id="about" class="hidden-section scroll-con-sec bot-element">
         <div class="col-wc_dec" style="height: 100%;"></div>
         <div class="container" style="overflow: hidden;">
           <div class="section-title fl-wrap">
@@ -269,10 +269,11 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/DirectionalDrilling.jpeg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
-                            <h2> DIRECTIONAL DRILLING
+                            <h2> Directional Drilling Services  
+
                             </h2>
                             <ul>
                               <li>quality drilling equipment</li>
@@ -292,7 +293,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/WorkoverServices.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> WORKOVER
@@ -317,7 +318,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/Underreaming.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>UNDERREAMING SERVICES
@@ -336,11 +337,34 @@
                   </a>
                 </div>
                 <div class="swiper-slide">
+                  <a href="{{ url('/services/#service2') }}">
+                    <div class="content-inner fl-wrap">
+                      <div class="content-front">
+                        <div class="cf-inner">
+                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
+                          <div class="overlay overlay-service"></div>
+                          <div class="inner">
+                            <h2>Fishing Services 
+
+                            </h2>
+                            <ul>
+                              <li>Fishing Services 
+
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
                   <a href="{{ url('/services/#service3') }}">
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>WHIPSTOCK SERVICES
@@ -363,13 +387,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/SurveyServices.jpeg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>SURVEY
-
-
-
                             </h2>
                             <ul>
                               <li>SURVEY
@@ -439,7 +460,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/MUDPUMP.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Mud Pump & System Rentals
@@ -457,7 +478,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/POWERTONG.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Power Swivel Rentals
@@ -476,13 +497,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/handlingrentals.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Handling Tool Rentals
-
-
-
                             </h2>
                           </div>
                         </div>
@@ -496,14 +514,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/DownholeToolRentals.jpg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Downhole Tool Rentals
-
-
-
-
                             </h2>
                           </div>
                         </div>
@@ -517,15 +531,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/WORKOVER.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>Workover Tool Rentals
-
-
-
-
-
                             </h2>
                           </div>
                         </div>

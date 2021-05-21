@@ -285,6 +285,15 @@ height: 60vh!important;
 .bot-element    , .hiddec-anim  {
     transform: translateX(-50px);
     opacity: 0;
+
+}
+.services-content .bot-element{
+	padding: 90px 0;
+	padding-top: 6rem;
+}
+.txt-color{
+	font-family: sans-serif;
+	color: #fff;
 }
 .fcw-title  , .sin-anim{
     transform: translateY(50px);
@@ -1918,14 +1927,14 @@ section {
 	font-size: 16px;
 }
 .section-title h3:before {
-	content:'';
-	position:absolute;
-	left:-90px;
-	top:-10px;
-	width:150px;
-	bottom:4px;
-	z-index:-1;
-	background:#f2f2f2;
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: -10px;
+	width: 170px;
+	bottom: 4px;
+	z-index: -1;
+	background: #f2f2f2;
 }
 .sec-lines {
 	position: absolute;

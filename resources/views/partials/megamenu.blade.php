@@ -9,20 +9,20 @@
             <div>
             <li><a class="titulo-nav"  href="" >OUR COMPANY</a></li>
             
-            <li   class="nav-button but-hol links"><a href="#sec2" onclick="showAbout()" >About jmp</a></li>
-            <li class="nav-button but-hol links"><a href="#sec2" class="" onclick="showHistory()">History</a></li>
+            <li   class="nav-button but-hol links"><a href="#about" onclick="showAbout()" >About jmp</a></li>
+            <li class="nav-button but-hol links"><a href="#about" class="" onclick="showHistory()">History</a></li>
             <li class="nav-button but-hol links">
-                <a href="#sec2" onclick="showMission()">Mission</a>
+                <a href="#about" onclick="showMission()">Mission</a>
             </li>
             <!--<li  class="  nav-button but-hol links">
-                <a href="#sec2" class="" onclick="showCore()">Core values</a>
+                <a href="#about" class="" onclick="showCore()">Core values</a>
             </li>
-            <li  class="nav-button but-hol links"><a href="#sec2" onclick="showQhse()">QHSE</a></li>
+            <li  class="nav-button but-hol links"><a href="#about" onclick="showQhse()">QHSE</a></li>
             <li  class="nav-button but-hol links">
-                <a href="#sec2" onclick="showPolicies()" >Policies</a>
+                <a href="#about" onclick="showPolicies()" >Policies</a>
             </li>-->
             <li  class="nav-button but-hol links">
-                <a href="#sec2" onclick="showCertifications()">QHSE & Certifications</a>
+                <a href="#about" onclick="showCertifications()">QHSE & Certifications</a>
             </li>
             </div>
             <!---2-->
