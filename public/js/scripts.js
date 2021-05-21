@@ -1196,10 +1196,10 @@ $(document).ready(function() {
           //prevButton: '.swiper-button-prev',
           slidesPerView: 1,
           arrows:true,
-          autoplay: {
+          /*autoplay: {
             speed: 5000,
             disableOnInteraction: false
-          },
+          },*/
           
           paginationClickable: true,
           navigation: {
