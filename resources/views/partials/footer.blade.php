@@ -7,9 +7,12 @@
                   <div class="footer-box fl-wrap">
                     <div class="footer-title fl-wrap">
                       <span>01.</span>
-                      FORM
+                      About
                     </div>
-                    <div class="footer-box-item fl-wrap">
+                   <p class="txt-color">We partner in your projects, providing high quality services through experienced personnel</p>
+                   <p class="txt-color">John M Phillips is an independent energy services company, with international presence, providing a broad range of specialized equipment and services to the oil, gas, geothermal and mining industries.  
+</p>
+                   <!---- <div class="footer-box-item fl-wrap">
                       <form action="" class="form-contact" id="formSubmit">
                         <div >
                           <input type="text" placeholder="name" id="form-name" required>
@@ -28,7 +31,7 @@
                         </div>
                         <button class="btn btn-danger">Submit</button>
                       </form>
-                    </div>
+                    </div>--->
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -37,9 +40,10 @@
                     Contact Us
                   </div>
                   <div class="footer-box-item fl-wrap">
-                    <p>
-                      LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT. MAECENAS IN PULVINAR NEQUE.
+                    <p class="txt-color">
+                    We are looking forward to hear from you. One of our representatives will get in touch with you right away.
                     </p>
+                    
                     <!---   <div class="subcribe-form fl-wrap">
                       <form id="subscribe" class="fl-wrap">
                         <input class="enteremail" name="email" id="subscribe-email" placeholder="Your Email"

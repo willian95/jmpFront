@@ -15,19 +15,33 @@
 <div class="column-wrap">
     <!--content -->
     <div class="content">
-        <!-- fixed-top-panel -->
-        <div class="fixed-top-panel fl-wrap">
-            <div class="sp-fix-header fl-wrap">
-                <div class="scroll-down-wrap">
-                    <div class="mousey">
-                        <div class="scroller"></div>
-                    </div>
-                    <span>Scroll down to discover</span>
-                </div>
-                <a href="{{ url('/') }}" class=" back-to-home-btn"><span>Back to home</span></a>
-            </div>
-        </div>
-        <!-- fixed-top-panel end -->
+       <!--page-scroll-nav-->
+       <div class="page-scroll-nav fl-wrap">
+       <nav class="scroll-init color2-bg">
+          <ul class="no-list-style">
+            <li>
+              <a class=" " href="{{ url('/#about') }}" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
+            </li>
+            <li>
+              <a class="" href="{{ url('/services') }}" data-bgscr="images/bg/long/5.jpg" data-bgtex="services"><span>Services</span></a>
+            </li>
+            <!---<li>
+                    <a class="" href="resource.html" data-bgscr="images/bg/long/3.jpg"><span></span></a>
+                  </li>--->
+            <li>
+              <a class="" href="{{ url('/rentals') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>RENTALS</span></a>
+            </li>
+            <li>
+              <a class="scroll-link fbgs" href="{{ url('/markets') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
+            </li>
+            <li>
+              <a class="" href="{{ url('/contact') }}" data-bgscr="images/bg/long/4.jpg" data-bgtex="clients"><span>CONTACT</span></a>
+            </li>
+          </ul>
+        </nav>
+        <!--<div class="arrowpagenav"></div>--->
+      </div>
+      <!--page-scroll-nav end-->
 
         <div class="section-separator"><span class="fl-wrap"></span></div>
         <!--section  -->
@@ -74,7 +88,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/MUDPUMP.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -113,7 +127,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/POWERTONG.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -132,7 +146,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/handlingrentals.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -179,7 +193,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -197,7 +211,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/WORKOVER.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -230,8 +244,6 @@
                                     <div class="col-md-6">
                                         <div class="video-promo-text fl-wrap mar-top p-0">
                                             <h3 style="color:#fff">Fishing Tool Rentals
-
-
                                             </h3>
                                             <p>John M. Phillips Fishing Tool Rentals have all the equipment and technologies necessary to effectively conduct fishing
                                                 operations. Our offerings include tubulars, downhole tools, fishing and milling equipment.
@@ -241,7 +253,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>

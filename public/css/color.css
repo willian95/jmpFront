@@ -9,12 +9,12 @@
 	color: #ffffff;
 }
 .loader {
-	border-top: 10px solid  #a90414;
-	border-right: 10px solid #a90414;
-	border-bottom: 10px solid #a90414;
+	border-top: 10px solid  #971b30;
+	border-right: 10px solid #971b30;
+	border-bottom: 10px solid #971b30;
 }
 .footer-inner:after  , .element-item{
-	border-color:#a90414;
+	border-color:#971b30;
 }
 .nav-button:hover span:before {
     width: 100%;
@@ -24,8 +24,8 @@
 	color: #fff!important;
 }
 .section-title:before{
-	background: #a90414!important;
+	background: #971b30!important;
 }
 .dec-img:before{
-	background: #a90414!important;
+	background: #971b30!important;
 }

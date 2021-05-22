@@ -21,7 +21,7 @@
           </li>
           <li class="linea"></li>
           <li class="tooltip-i">
-            <a href="tel:12345678" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
+            <a href="tel:+15625957363" target="_blank"><i class="fa fa-phone" aria-hidden="true"></i>
             </a>
             <span class="tooltip-i_txt">Phone</span>
           </li>

@@ -63,15 +63,11 @@
                   <div><span>production</span> </div>
                 </div>
                 <h1 class="text-banner">
-                  We partner in your projects, <br />
-                  providing <span>high quality
-                    services</span> through experienced
-                  form personnel.
+                  We partner in your projects, providing <span>high quality services </span> through <span>experienced personnel.</span>
+
                 </h1>
                 <h4>
-                  John M Phillips is an independent energy services company, with
-                  international presence, providing a broad range of specialized equipment
-                  and services to the oil, gas, geothermal and mining industries.
+                  John M Phillips is an independent energy services company, with international presence, providing a broad range of specialized equipment and services to the oil, gas, geothermal and mining industries
                 </h4>
                 <div class="clearfix"></div>
                 <!--- <a href="portfolio.html" class="btn ajax fl-btn color-bg">My portfolio</a>--->
@@ -92,7 +88,7 @@
         <div class="swiper-wrapper">
           <!-- swiper-slide imagen-->
           <div class="swiper-slide">
-            <div class="bg" data-bg="https://c8.alamy.com/compes/2a00dx5/reacondicionamiento-trabajando-en-una-plataforma-previamente-perforados-y-tratando-de-restablecer-la-produccion-a-traves-de-la-reparacion-tonificado-2a00dx5.jpg">
+            <div class="bg" data-bg="{{asset('images/all/banner.jpg') }}">
             </div>
             <div class="overlay"></div>
           </div>
@@ -127,7 +123,7 @@
         <nav class="scroll-init color2-bg">
           <ul class="no-list-style">
             <li>
-              <a class="scroll-link fbgs" href="#sec2" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
+              <a class="scroll-link fbgs" href="#about" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
             </li>
             <li>
               <a class="scroll-link fbgs" href="#sec3" data-bgscr="images/bg/long/5.jpg" data-bgtex="services"><span>Services</span></a>
@@ -146,13 +142,13 @@
             </li>
           </ul>
         </nav>
-        <div class="arrowpagenav"></div>
+        <!--<div class="arrowpagenav"></div>--->
       </div>
       <!--page-scroll-nav end-->
       <!--section -->
-      <section id="sec2" class="hidden-section scroll-con-sec bot-element">
+      <section id="about" class="hidden-section scroll-con-sec bot-element">
         <div class="col-wc_dec" style="height: 100%;"></div>
-        <div class="container">
+        <div class="container" style="overflow: hidden;">
           <div class="section-title fl-wrap">
             <div class="swiper-about_arrows">
               <!-- If we need navigation buttons -->
@@ -160,123 +156,99 @@
               <div class="swiper-button-next"></div>
             </div>
 
-
-            <div class="row">
-              <div class="col-md-6 p-0 ov ">
-                <div class="swiper-about ">
-                  <div class="swiper-wrapper">
-                    <div class="about-item swiper-slide">
+            <div class="swiper-about ">
+              <div class="swiper-wrapper">
+                <div class="about-item swiper-slide container">
+                  <div class="row">
+                    <div class="col-md-6">
                       <h3 id="color" class="title-change">About us</h3>
                       <p class="description-change">
-                        <strong>John M Phillips LLC</strong> is an independent energy services company, with an international presence, providing a broad
-                        range of specialized equipment and services to the oil, gas, geothermal and mining industries. Our company has
-                        provided the technical expertise, advanced equipment, and operational support necessary for success. We have the
-                        people, capabilities, and vision to serve the needs of a challenging and evolving industry.
+                        John M Phillips LLC is an <strong> independent energy services company</strong>, with an international presence, providing a broad range of specialized equipment and services to the <strong>oil, gas, geothermal</strong> and <strong>mining</strong> industries. Our company provides the technical expertise, advanced equipment, and operational support necessary for success. We have the <strong>people, capabilities</strong>, and <strong>vision</strong> to serve the needs of a challenging and evolving industry.
                       </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">We are a global family working as one team to create lasting impact for ourselves, our customers, and the communities where we live and work. We take responsibility for each other and our company’s future, knowing that personal ownership leads to broader success. We trust in our personnel and products and see what others do not and we act. Through business innovation, new innovative products, and service delivery, we are driven to power the industry that powers the world better. We believe in service above all since our singular goal is to move our customers’ business forward. This drives us to anticipate our customers’ needs and work with them to deliver the finest products and services on time and on budget.</h5>
-                      </div>
+                      <p class="description-change-two">We are a global family working as <strong>one team</strong> to create lasting impact for <strong>ourselves</strong>, our <strong>customers</strong>, and the <strong>communities</strong> where we live and work.
+                        <br><br>
+                        We believe in service above all since our singular goal is to move our customers’ business <strong>forward, on time</strong> and <strong>on budget.</strong>
+                      </p>
                     </div>
-                    <div class="about-item swiper-slide">
-                      <h3 id="color" class="title-change">Mission</h3>
-                      <p class="description-change">
-                        <strong>John M Phillips </strong>  adds value to our clients’ projects by providing unsurpassed high-quality products and services at a competitive cost.
-                      </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">Our ability to execute at the required level is because of our key assets—our people. Our approach is efficient and safe for our employees, our clients and our environment. JMP follows a continuous improvement path in line with our service quality program, that we proudly refer to as “The JMP Way</h5>
-                      </div>
-                    </div>
-                    <div class="about-item swiper-slide">
-                      <h3 id="color" class="title-change">History</h3>
-                      <p class="description-change">
-                        <strong>John M Phillips </strong> was established in Signal Hill, CA and since 1952 offers a wide variety of services to the west coast oilfield and geothermal market. One of our core business since our early days, has been the rental of equipment: from a small spool, to a large bore BOP, handling tools, drilling tools, etc. In 1988 we started offering fishing services for both cased on open hole and in 2009, as part of an expansion campaign we began our Directional Drilling Services division
-                      </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">We have participated in international projects in Central and South America, Australia, Middle East, among others. In 2012 we started operations in Chile and in 2017 we have expanded our presence to Bolivia, Argentina and Colombia. Our holistic approach to provide services at the highest standards, through a highly skilled service delivery team using internationally recognized tools and equipment, along with a unique flexibility to adapt to our client needs and a firm commitment to provide solutions as a partner, has driven a very successful growth.</h5>
-                      </div>
-                    </div>
-                    <div class="about-item swiper-slide">
-                      <h3 id="color" class="title-change">Core Values</h3>
-                      <p class="description-change">
-                        <strong>John M Phillips </strong> Energy Services & Equipment Rentals is looked at as the preferred services and equipment rental provider in North America & South America.
-                      </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">
-                        <ul>
-                          <li>•Service     </li>
-                          <li> • Ethics</li>
-                          <li>• Commitment</li>
-                          <li>• Integrity</li>
-                           <li> • Innovation</li>
-                           <li>• Teamwork</li>
-                           <li>• Honesty</li>
-                           <li> • Communication</li>
-                           <li>• Accountability.</li>
-                        </ul>  
-                        </h5>
-                      </div>
-                    </div>
-                    <div class="about-item swiper-slide">
-                      <h3 id="color" class="title-change">Health, Safety & Environmental</h3>
-                      <p class="description-change">
-                        <strong>John M Phillips LLC  </strong>will provide our customers with quality products and services that will meet or exceed their requirements. These quality products and services will result from the efforts of John M. Phillips LLC personnel and suppliers. All employees shall be properly educated to the quality policy
-                      </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">Management shall take all necessary measures to assure that the quality policy is understood, implemented and maintained throughout all levels of the company..</h5>
-                      </div>
-                    </div>
-                     <div class="about-item swiper-slide">
-                      <h3 id="color" class="title-change">Policies</h3>
-                      <p class="description-change">
-                      JMP knows how important it is to focus on its activities in compliance not only with legal requirements Of every country in which she is present, she seeks to go further with Organizational Policies that protect her
-                      </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">Employees and third parties in all HSE themes. To this end, it has the following policies:
-                          <ul>
-                            <li> Arms</li>
-                            <li>Alcohol and Drug Policy</li>
-                            <li>Non- Smoking Policy</li>
-                            <li>Road Safety Policy</li>
-                            <li>Mutual Respect Policy</li>
-                            <li>Health and Safety Policy at Work</li>
-                            
-                          </ul>
-                           </h5>
-                      </div>
-                    </div>
-                    <div class="about-item swiper-slide">
-                      <h3 id="color" class="title-change">Certifications</h3>
-                      <p class="description-change">
-                      JMP creates and aligns with the most recognized standards in the areas of quality, health, work safety and environment. The company has ISO 9001:2015, ISO14001:2015, OHSAS 18001:2007 in all countries where JMP is present.
-                      </p>
-                      <div class="main-about fl-wrap">
-                        <h5 class="description-change-two">JMP is also in the transition of ISO 45001:2018 while it's being completed, JMP is also working on  itt's GIS to the API Q2 norm. In addition, in countries like Colombia it has the RUC certification, which is required for a large quantity of operators.
-                           </h5>
+                    <div class="col-md-6">
+                      <div class="dec-img fl-wrap">
+                        <img src="{{asset('images/all/about.jpg') }}" class="respimg image-change" alt="" />
                       </div>
                     </div>
                   </div>
-
                 </div>
+                <div class="about-item swiper-slide container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 id="color" class="title-change">Mission</h3>
+                      <p class="description-change">
+                        To add value to our client´s projects by a <strong> holistic approach</strong> to provide services at the highest standards, through a highly skilled service delivery <strong>team</strong> using internationally recognized tools and equipment, along with a unique <strong>flexibility</strong> to adapt to our client needs and a firm commitment to provide solutions as a <strong>partner.</strong>
+                        <br><br>
+                        This drives what we proudly refer to as “ <strong>The JMP Way</strong> ”.
+                      </p>
 
+                      <div class="main-about fl-wrap mt-3">
+                        <h3 id="color" class="title-change">Vision</h3>
+                        <h5 class="description-change-two">John M. Phillips is the preferred services and equipment rental provider in North & South America.</h5>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="dec-img fl-wrap">
+                        <img src="{{asset('images/all/mision.jpg') }}" class="respimg image-change" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-item swiper-slide container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h3 id="color" class="title-change">History</h3>
+                      <p class="description-change">
+                        John M. Phillips was established in <strong>Signal Hill, CA</strong> and since 1952 offers a wide <strong>variety of services</strong> to the west coast oilfield and geothermal market. One of our core business since our early days, has been the rental of equipment: from a small spool, to a large bore BOP, handling tools, drilling tools, etc. In 1988 we started offering fishing services for both cased on open hole and in 2009, as part of an expansion campaign we began our Directional Drilling Services division.
+                        We have participated in <strong>international projects</strong> in Central and South America, Australia, Middle East, among others. In 2012 we started operations in <strong>Chile</strong> and in 2017 we have successfully expanded our presence to <strong> Argentina and Colombia</strong>.
 
-              </div>
+                      </p>
+                      <div class="main-about fl-wrap">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="dec-img fl-wrap">
+                        <img src="{{asset('images/all/historia.jpg') }}" class="respimg image-change" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="about-item swiper-slide container">
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h3 id="color" class="title-change">QHSE & Certifications</h3>
+                    <p class="description-change">
+                    In line with our Mission and Vision, JMP aligns to meet international Service Quality, Environmental and Safety Standards. <br> <br>Our operations in South America are backed up by current ISO tri-norm certifications, among others required by local clients.  
+                    </p>
+                    <div class="main-about fl-wrap">
+                      <h5 class="description-change-two">John M. Phillips LLC has made a substantial investment to deploy first class HSE and Quality systems. These systems are implemented and monitored via trained staff with a continual improvement focus to meet or corporate goals. 
 
-              <div class="col-md-6">
-                <div class="dec-img fl-wrap">
-                  <img src="https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs=" class="respimg image-change" alt="" />
+                      </h5>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="dec-img fl-wrap">
+                        <img src="{{asset('images/all/certificacion.jpg') }}" class="respimg image-change" alt="" />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
           </div>
 
-          <div class="sec-number">01.</div>
+        
         </div>
       </section>
       <!--section end -->
       <!--section -->
 
-   
+
       <!--section  -->
       <section class="hidden-section scroll-con-sec bot-element service-secction" id="sec3">
         <div class="container">
@@ -297,10 +269,11 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/DirectionalDrilling.jpeg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
-                            <h2> DIRECTIONAL DRILLING
+                            <h2> Directional Drilling Services  
+
                             </h2>
                             <ul>
                               <li>quality drilling equipment</li>
@@ -314,35 +287,13 @@
                     </div>
                   </a>
                 </div>
-                <div class="swiper-slide">
-                  <a href="{{ url('/services/#service2') }}">
-                    <div class="content-inner fl-wrap">
-                      <div class="content-front">
-                        <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/P9vLMqf.png"></div>
-                          <div class="overlay overlay-service"></div>
-                          <div class="inner">
-                            <h2> FISHING
 
-                            </h2>
-                            <ul>
-                              <li>cased-hole</li>
-                              <li>open-hole</li>
-                              <li>thru-tubing downhole fishing tools</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </a>
-                </div>
                 <div class="swiper-slide">
                   <a href="{{ url('/services/#service5') }}">
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/WorkoverServices.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> WORKOVER
@@ -367,7 +318,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/Underreaming.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>UNDERREAMING SERVICES
@@ -386,11 +337,34 @@
                   </a>
                 </div>
                 <div class="swiper-slide">
+                  <a href="{{ url('/services/#service2') }}">
+                    <div class="content-inner fl-wrap">
+                      <div class="content-front">
+                        <div class="cf-inner">
+                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
+                          <div class="overlay overlay-service"></div>
+                          <div class="inner">
+                            <h2>Fishing Services 
+
+                            </h2>
+                            <ul>
+                              <li>Fishing Services 
+
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
                   <a href="{{ url('/services/#service3') }}">
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>WHIPSTOCK SERVICES
@@ -413,13 +387,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/MYEoda7.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/SurveyServices.jpeg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>SURVEY
-
-
-
                             </h2>
                             <ul>
                               <li>SURVEY
@@ -489,7 +460,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/MUDPUMP.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Mud Pump & System Rentals
@@ -507,7 +478,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/POWERTONG.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Power Swivel Rentals
@@ -526,13 +497,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/handlingrentals.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Handling Tool Rentals
-
-
-
                             </h2>
                           </div>
                         </div>
@@ -546,14 +514,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/DownholeToolRentals.jpg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> Downhole Tool Rentals
-
-
-
-
                             </h2>
                           </div>
                         </div>
@@ -567,15 +531,10 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/WORKOVER.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>Workover Tool Rentals
-
-
-
-
-
                             </h2>
                           </div>
                         </div>
@@ -589,7 +548,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>Fishing Tool Rentals
@@ -675,7 +634,7 @@
   var missionTitle = "Mission"
   var missionDescription = "John M. Phillips adds value to our clients’ projects by providing unsurpassed high-quality products and services at a competitive cost. "
   var missionImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
-  var missionDescriptionTwo = "Our ability to execute at the required level is because of our key assets—our people. Our approach is efficient and safe for our employees, our clients and our environment. JMP follows a continuous improvement path in line with our service quality program, that we proudly refer to as “The JMP Way”"
+  var missionDescriptionTwo = "John M. Phillips is the preferred services and equipment rental provider in North & South America."
   //***********************************informacion*********************************************** */
 
   //***********************************informacion*********************************************** */
@@ -706,9 +665,9 @@
 
   //***********************************informacion*********************************************** */
   var certificationsTitle = "Certifications"
-  var certificationsDescription = "JMP creates and aligns with the most recognized standards in the areas of quality, health, work safety and environment. The company has ISO 9001:2015, ISO14001:2015, OHSAS 18001:2007 in all countries where JMP is present. "
+  var certificationsDescription = "In line with our Mission and Vision, JMP aligns to meet international Service Quality, Environmental and Safety Standards.  Our operations in South America are backed up by current ISO tri-norm certifications, among others required by local clients. "
   var certificationsImage = "https://media.istockphoto.com/photos/fracking-drilling-rig-at-the-golden-hour-picture-id1197081783?b=1&k=6&m=1197081783&s=170667a&w=0&h=IECOK0tBeqlEZndCWpaR3xMqlPteM468ICPv4C576qs="
-  var certificationsDescriptionTwo = "JMP is also in the transition of ISO 45001:2018 while it's being completed, JMP is also working on  itt's GIS to the API Q2 norm. In addition, in countries like Colombia it has the RUC certification, which is required for a large quantity of operators."
+  var certificationsDescriptionTwo = "John M. Phillips LLC has made a substantial investment to deploy first class HSE and Quality systems. These systems are implemented and monitored via trained staff with a continual improvement focus to meet or corporate goals."
   //***********************************informacion*********************************************** */
 
   function showAbout() {
