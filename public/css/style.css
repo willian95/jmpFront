@@ -4656,8 +4656,9 @@ nav.nav-inner , .contacts-wrap li {
 	line-height:35px;
 }
 .section-title h3, .small-section-title h3 {
-	font-size:26px;
+	font-size:17px;
 }
+
 .nav-scroll-bar-wrap {
     padding: 40px 30px 100px 30px;
 }
@@ -4950,6 +4951,13 @@ strong{
 	font-weight: 700;
 }
 @media (min-width: 0px) and (max-width: 768px) {
+.swiper-about_arrows{
+	display: none;
+}
+	.swiper-about_arrows .swiper-button-next, .swiper-about_arrows .swiper-button-prev {
+    position: absolute;
+    top: 2%;
+}
 	.fl-btn {
 		
 		width: 100%;
