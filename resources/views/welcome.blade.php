@@ -548,7 +548,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>Fishing Tool Rentals

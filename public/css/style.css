@@ -1926,6 +1926,9 @@ section {
 .small-section-title h3 {
 	font-size: 16px;
 }
+.rentals-seccion  .bot-element{
+	padding-top: 7rem;
+}
 .section-title h3:before {
 	content: '';
 	position: absolute;

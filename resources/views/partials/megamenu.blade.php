@@ -57,9 +57,9 @@
                 PRESSURE
                 CONTROL
                 </a></li>
-                <li class="nav-button nav-button-2"><a href="" class="">DOWNHOLE TOOLS</a></li>
+                <li class="nav-button nav-button-2"><a href="{{ url('/rentals/#rentals5') }}" class="">DOWNHOLE TOOLS</a></li>
                 <li class="nav-button nav-button-2">
-                <a href="{{ url('/rentals/#rentals5') }}" class="">WORKOVER TOOLS
+                <a href="{{ url('/rentals/#rentals6') }}" class="">WORKOVER TOOLS
                 </a>
             </li>
             <li class="nav-button nav-button-2">

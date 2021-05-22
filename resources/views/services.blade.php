@@ -59,8 +59,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
-
+                                            <img src="{{asset('images/all/DirectionalDrilling.jpeg') }}" alt="" class="respimg">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -106,7 +105,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/FishingServices.jpg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -125,7 +124,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DirectionalDrilling.jpeg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -179,7 +178,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/SurveyServices.jpeg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -197,7 +196,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/WorkoverServices.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -248,7 +247,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/Underreaming.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>

@@ -88,7 +88,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/MUDPUMP.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/POWERTONG.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -146,7 +146,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/handlingrentals.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/WORKOVER.png') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
@@ -244,8 +244,6 @@
                                     <div class="col-md-6">
                                         <div class="video-promo-text fl-wrap mar-top p-0">
                                             <h3 style="color:#fff">Fishing Tool Rentals
-
-
                                             </h3>
                                             <p>John M. Phillips Fishing Tool Rentals have all the equipment and technologies necessary to effectively conduct fishing
                                                 operations. Our offerings include tubulars, downhole tools, fishing and milling equipment.
@@ -255,7 +253,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="" class="respimg">
 
                                         </div>
                                     </div>
