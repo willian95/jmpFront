@@ -23,16 +23,16 @@
               <a class=" " href="{{ url('/#about') }}" data-bgscr="images/bg/long/1.jpg" data-bgtex="about"><span>About</span></a>
             </li>
             <li>
-              <a class="" href="{{ url('/#sec3') }}" data-bgscr="images/bg/long/5.jpg" data-bgtex="services"><span>Services</span></a>
+              <a class="" href="{{ url('/services') }}" data-bgscr="images/bg/long/5.jpg" data-bgtex="services"><span>Services</span></a>
             </li>
             <!---<li>
                     <a class="" href="resource.html" data-bgscr="images/bg/long/3.jpg"><span></span></a>
                   </li>--->
             <li>
-              <a class="" href="{{ url('/#rentals') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>RENTALS</span></a>
+              <a class="" href="{{ url('/rentals') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>RENTALS</span></a>
             </li>
             <li>
-              <a class="scroll-link fbgs" href="{{ url('/#sec5') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
+              <a class="scroll-link fbgs" href="{{ url('/markets') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
             </li>
             <li>
               <a class="" href="{{ url('/contact') }}" data-bgscr="images/bg/long/4.jpg" data-bgtex="clients"><span>CONTACT</span></a>

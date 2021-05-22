@@ -8,7 +8,6 @@
         <ul>
             <div>
             <li><a class="titulo-nav"  href="" >OUR COMPANY</a></li>
-            
             <li   class="nav-button but-hol links"><a href="#about" onclick="showAbout()" >About jmp</a></li>
             <li class="nav-button but-hol links"><a href="#about" class="" onclick="showHistory()">History</a></li>
             <li class="nav-button but-hol links">
@@ -38,18 +37,12 @@
                 AND
                 TRUTUBING</a>
             </li>
-
             <li class="nav-button nav-button-2"><a href="{{ url('/services/#service3') }}" class="">WHIPSTOCKS</a></li>
             <li class="nav-button nav-button-2">
             <a href="{{ url('/services/#service6') }}" class="">UNDERREAMING</a>
             </li>
-          
             <li class="nav-button nav-button-2"><a href="{{ url('/services/#service4') }}" class="">SURVEYING</a></li>
-         
-         
-          
             </div>
-
             <!---3-->
             <div>
             <li><a class="titulo-nav" href="">RENTALS</a></li>
@@ -71,38 +64,29 @@
             </li>
             <li class="nav-button nav-button-2"><a href="{{ url('/rentals/#rentals2') }}" class="">MUD PUMPS
                 & SYSTEMS</a></li>
-        
-  
-       
-          
-       
             </div>
             <!---4-->
           <div>
-            <li><a class="titulo-nav" href="">MARKETS</a></li>
-            <li><a href="" class="ajax">OIL & GAS
-
+            <li ><a class="titulo-nav" href="">MARKETS</a></li>
+            <li class="nav-button nav-button-2"><a href="{{ url('/markets/#markets1') }}" class="">OIL & GAS
                 </a></li>
-            <li><a href="" class="ajax">GEOTHERMAL</a></li>
-            <li>
-                <a href="" class="ajax">MINING
+            <li class="nav-button nav-button-2"><a href="{{ url('/markets/#markets2') }}" class="">GEOTHERMAL</a></li>
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/markets/#markets3') }}" class="">MINING
                 </a>
             </li>
-            <li>
-                <a href="" class="ajax">REMOTE PROJECTS
+            <li class="nav-button nav-button-2">
+                <a href="{{ url('/markets/#markets4') }}" class="">REMOTE PROJECTS
                 </a>
             </li>
             <!---<li><a href="">RESOURCES</a></li>-->
             <li><a href="{{ url('/carreers') }}" class="btn-custom">CAREERS</a></li>
-
-
             </div>
         </ul>
         </nav>
         <!-- nav end-->
     </div>
     </div>
-
     <div class="nav-holder-line"></div>
 </div>
 <div class="nav-holder-dec color-b"></div>

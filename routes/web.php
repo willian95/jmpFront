@@ -35,6 +35,7 @@ Route::post("/appliance/store", [ApplianceController::class, "storeAppliance"]);
 Route::view('/rentals', "rentals");
 
 Route::view('/resources', "resources");
+Route::view('/markets', "markets");
 
 Route::post("contact-form", [ContactController::class, "contact"]);
 
