@@ -55,11 +55,11 @@
                     <!--section end -->
                     <section class="bot-element bg--ligth" id="service1">
                         <div class="container">
-                            <div class="container">
-                                <div class="row">
+                            <div class="">
+                                <div class="row xs-reverese">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/DirectionalDrilling.jpeg') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DirectionalDrilling.jpeg') }}" alt="JMP  services" class="respimg">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -105,7 +105,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/FishingServices.jpg') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/FishingServices.jpg') }}" alt="JMP  services" class="respimg">
 
                                         </div>
                                     </div>
@@ -120,11 +120,11 @@
                     <!--section end -->
                     <section class="bot-element bg--ligth" id="service3">
                         <div class="container">
-                            <div class="container">
-                                <div class="row">
+                            <div class="">
+                                <div class="row xs-reverese">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/DirectionalDrilling.jpeg') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/WHITSPOCK.png') }}" alt="JMP  services" class="respimg">
 
                                         </div>
                                     </div>
@@ -150,9 +150,6 @@
                         <div class="hero-corner"></div>
                     </section>
                     <!--section end -->
-
-
-
                     <!--section end -->
                     <section class="dark-bg bot-element" id="service4">
                         <div class="">
@@ -178,7 +175,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/SurveyServices.jpeg') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/SurveyServices.jpeg') }}" alt="JMP  services" class="respimg">
 
                                         </div>
                                     </div>
@@ -193,10 +190,10 @@
                     <section class="bot-element bg--ligth" id="service5">
                         <div class="">
                             <div class="container">
-                                <div class="row">
+                                <div class="row xs-reverese">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/WorkoverServices.png') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/WorkoverServices.png') }}" alt="JMP  services" class="respimg">
 
                                         </div>
                                     </div>
@@ -247,7 +244,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/Underreaming.png') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/Underreaming.png') }}" alt="JMP  services" class="respimg">
 
                                         </div>
                                     </div>
@@ -266,8 +263,6 @@
         <div class="section-separator bot-element">
             <span class="fl-wrap"></span>
         </div>
-
-
         <div class="section-separator bot-element">
             <span class="fl-wrap"></span>
         </div>

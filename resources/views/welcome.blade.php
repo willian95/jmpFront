@@ -364,7 +364,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="{{asset('images/all/FishingServices.jpg') }}"></div>
+                          <div class="bg" data-bg="{{asset('images/all/WHITSPOCK.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2>WHIPSTOCK SERVICES
@@ -443,7 +443,7 @@
                     <div class="content-inner fl-wrap">
                       <div class="content-front">
                         <div class="cf-inner">
-                          <div class="bg" data-bg="http://imgfz.com/i/yHBYout.png"></div>
+                          <div class="bg" data-bg="{{asset('images/all/BOP_Pressurecontrol.png') }}"></div>
                           <div class="overlay overlay-service"></div>
                           <div class="inner">
                             <h2> BOP & Pressure Control System Rentals

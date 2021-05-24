@@ -136,7 +136,10 @@
                                         <i class="fal fa-compass"></i>
                                         <h4>Address</h4>
                                         <div class="clearfix"></div>
-                                        <a class="contact-link ubicacion url" href="https://www.google.com/maps/place/2755+Dawson+Ave,+Signal+Hill,+CA+90755,+EE.+UU./@33.8065069,-118.1679177,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd33d1686d82bf:0x6b95e1e061f6cd3a!8m2!3d33.8065025!4d-118.165729"> JMP Corporate Headquarters Signal Hill, CA, USA 90755</a>
+                                        <a class="contact-link ubicacion url" target="_blank" href="https://www.google.com/maps/place/2755+Dawson+Ave,+Signal+Hill,+CA+90755,+EE.+UU./@33.8065069,-118.1679177,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd33d1686d82bf:0x6b95e1e061f6cd3a!8m2!3d33.8065025!4d-118.165729"> JMP Corporate Headquarters Signal Hill, CA, USA 90755</a>
+                                       <br>
+                                        <a class="contact-link ubicacion2 url2" target="_blank" href=""></a>
+
                                     </li>
                                     <li>
                                         <i class="fal fa-envelope-open"></i>
@@ -221,33 +224,40 @@
     var PhoneNumberCol = "+57 (1) 622 3545"
     var NameCol = "Colombia"
     var ubicCol = "JMP Colombia - Bogotá, D.C."
+    var ubicCol2 = "Parque Industrial Siberia Real Bodega 2 Autopista Medellín Km 6.24, Tenjo, Cundinamarca"
     var EmailCol = "infocol@johnmphillips.com"
 
     function col() {
         $(".phone").html(PhoneNumberCol);
         $(".names-filt").html(NameCol)
         $(".ubicacion").html(ubicCol)
+        $(".ubicacion2").html(ubicCol2)
         $(".emails").html(EmailCol)
         $(".url").attr("href", "https://www.google.com/maps/place/John+M.+Phillips+Colombia/@4.7646207,-74.1681166,17z/data=!4m9!1m2!2m1!1sParque+Industrial+Siberia+Real+Bodega+2+Autopista+Medell%C3%ADn+Km+6.24,+Tenjo,+Cundinamarca!3m5!1s0x8e3f834d9681ae23:0xc33b70e8bc098216!8m2!3d4.7649073!4d-74.1654392!15sClhQYXJxdWUgSW5kdXN0cmlhbCBTaWJlcmlhIFJlYWwgQm9kZWdhIDIgQXV0b3Bpc3RhIE1lZGVsbMOtbiBLbSA2LjI0LCBUZW5qbywgQ3VuZGluYW1hcmNhkgEQY29ycG9yYXRlX29mZmljZQ");
+        $(".url2").attr("href", "https://www.google.com/maps/place/John+M.+Phillips+Colombia/@4.7646207,-74.1681166,17z/data=!4m9!1m2!2m1!1sParque+Industrial+Siberia+Real+Bodega+2+Autopista+Medell%C3%ADn+Km+6.24,+Tenjo,+Cundinamarca!3m5!1s0x8e3f834d9681ae23:0xc33b70e8bc098216!8m2!3d4.7649073!4d-74.1654392!15sClhQYXJxdWUgSW5kdXN0cmlhbCBTaWJlcmlhIFJlYWwgQm9kZWdhIDIgQXV0b3Bpc3RhIE1lZGVsbMOtbiBLbSA2LjI0LCBUZW5qbywgQ3VuZGluYW1hcmNhkgEQY29ycG9yYXRlX29mZmljZQ");
 
     }
 
     var PhoneNumberAr = "+ 54 (9) 2974 17-0746"
     var NameAr = "Argentina"
-    var ubicAr = "JMP Argentina - Buenos Aires"
+    var ubicAr = "CHUBUT: Consejal Quintana 1925 Barrio Industrial, Comodoro Rivadavia. Chubut (CP 9000)"
+    var ubicAr2 = "NEUQUEN-RIO NEGRO: Ruta 151 Km 3.4 Cipolletti – Río Negro (CP 8314)"
     var EmailAr = "info@johnmphillips.com"
 
     function ar() {
         $(".phone").html(PhoneNumberAr);
         $(".names-filt").html(NameAr)
         $(".ubicacion").html(ubicAr)
+        $(".ubicacion2").html(ubicAr2)
         $(".emails").html(EmailAr)
-        //   $(".url").attr("href", "test2");
+        $(".url").attr("href", "https://goo.gl/maps/kR76WnqxGsRGkWH86");
+        $(".url2").attr("href", "https://goo.gl/maps/chZDwu2KzJ2x23TA8");
     }
 
     var PhoneNumberCl = "+ 56 (61) 230-320"
     var NameCl = "Chile"
-    var ubicCl = "JMP Chile - Punta Arenas"
+    var ubicCl = "JMP Chile"
+    var ubicCl2 = "Sitio 1 Barrio Industrial Punta Arenas 6200000s"
     var EmailCl = "info@johnmphillips.com"
 
     function cl() {
@@ -255,6 +265,8 @@
         $(".names-filt").html(NameCl)
         $(".ubicacion").html(ubicCl)
         $(".emails").html(EmailCl)
+        $(".url").attr("href", "https://goo.gl/maps/V1FNk2FuMUQUtd5n7");
+        $(".url2").attr("href", "https://goo.gl/maps/V1FNk2FuMUQUtd5n7");
 
     }
 
@@ -272,7 +284,8 @@
 
     var PhoneNumberus = "+1 (562) 595-7363 "
     var Nameus = "USA"
-    var ubicus = "JMP Corporate Headquarters Signal Hill, CA, USA 90755"
+    var ubicus = "JMP Corporate "
+    var ubicus2 = "JMP Corporate Headquarters Signal Hill, CA, USA 90755"
     var Emailus = "info@johnmphillips.com"
 
     function us() {
@@ -281,6 +294,7 @@
         $(".ubicacion").html(ubicus)
         $(".emails").html(Emailus)
         $(".url").attr("href", "https://www.google.com/maps/place/2755+Dawson+Ave,+Signal+Hill,+CA+90755,+EE.+UU./@33.8065069,-118.1679177,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd33d1686d82bf:0x6b95e1e061f6cd3a!8m2!3d33.8065025!4d-118.165729");
+        $(".url2").attr("href", "https://www.google.com/maps/place/2755+Dawson+Ave,+Signal+Hill,+CA+90755,+EE.+UU./@33.8065069,-118.1679177,17z/data=!3m1!4b1!4m5!3m4!1s0x80dd33d1686d82bf:0x6b95e1e061f6cd3a!8m2!3d33.8065025!4d-118.165729");
 
     }
 </script>
