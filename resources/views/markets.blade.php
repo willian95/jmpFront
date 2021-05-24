@@ -55,8 +55,8 @@
           <!--section end -->
           <section class="bot-element bg--ligth" id="markets1">
             <div class="container">
-              <div class="container">
-                <div class="row">
+              <div class="containe">
+                <div class="row xs-reverese">
                   <div class="col-md-6">
                     <div class="video-box dec-img fl-wrap">
                       <img src="{{asset('images/all/OilandGasMarket.jpeg') }}" alt="" class="respimg">
@@ -132,8 +132,8 @@
           <!--section end -->
           <section class="bot-element bg--ligth" id="markets3">
             <div class="container">
-              <div class="container">
-                <div class="row">
+              <div class="containr">
+                <div class="row xs-reverese">
                   <div class="col-md-6">
                     <div class="video-box dec-img fl-wrap">
                       <img src="{{asset('images/all/minin.png') }}" alt="" class="respimg">
@@ -211,7 +211,7 @@
           <section class="bot-element bg--ligth" id="markets5">
             <div class="">
               <div class="container">
-                <div class="row">
+                <div class="row xs-reverese">
                   <div class="col-md-6">
                     <div class="video-box dec-img fl-wrap">
                       <img src="{{asset('images/all/WorkoverServices.png') }}" alt="" class="respimg">

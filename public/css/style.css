@@ -4451,7 +4451,10 @@ section.article {
 .nav-button {
     position: absolute;
     top: 20px;
-	left:110px;
+		left: 160px;
+}
+.nav-button-2 {
+	left: 0!important;
 }
 .logo-holder {
     top: 14px;
@@ -4466,7 +4469,7 @@ section.article {
 }
 .header-social {
 	width:auto;
-    bottom: 17px;
+    bottom: 0px;
 	right:90px;
     padding:  0;
 }
@@ -4892,7 +4895,7 @@ div.swiper-5 .swiper-button-next {
     align-items: center;
 }
 .rentals-seccion .dec-img img {
-    height: 36vh; 
+    height: 60vh; 
 }
 .links{
 	height: auto!important;
@@ -4951,6 +4954,10 @@ strong{
 	font-weight: 700;
 }
 @media (min-width: 0px) and (max-width: 768px) {
+	
+	.titulo-nav{
+		margin-top: 2rem;
+	}
 .swiper-about_arrows{
 	display: none;
 }
@@ -4971,7 +4978,12 @@ strong{
 	}
 nav.nav-inner {
     overflow-y: scroll;
-	height: 100vh!important;
+		height: 210vh!important;
+}
+.nav-scroll-bar-wrap {
+	padding: 0;
+	height: 100vh;
+	overflow-y: hidden!important;
 }
 .nav-scroll-bar-wrap {
     padding: 0;
@@ -5013,6 +5025,7 @@ section {
 
     left: auto;
 }
+
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 }

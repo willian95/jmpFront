@@ -70,7 +70,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="http://imgfz.com/i/yHBYout.png" alt="" class="respimg">
+                                            <img src="{{asset('images/all/BOP_Pressurecontrol.png') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/MUDPUMP.png') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/MUDPUMP.png') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
@@ -127,7 +127,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/POWERTONG.png') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/POWERTONG.png') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
@@ -146,7 +146,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/handlingrentals.png') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/handlingrentals.png') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/WORKOVER.png') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/WORKOVER.png') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
@@ -253,7 +253,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="video-box dec-img fl-wrap">
-                                            <img src="{{asset('images/all/DownholeToolRentals.jpg') }}" alt="" class="respimg">
+                                            <img src="{{asset('images/all/FishingServices.jpg') }}" alt="JMP rentals" class="respimg">
 
                                         </div>
                                     </div>
