@@ -57,19 +57,7 @@
         <div class="content">
 
 
-            <!-- fixed-column-wrap -->
-            <div class="fixed-column-wrap">
-                <div class="progress-bar-wrap">
-                    <div class="progress-bar color-bg"></div>
-                </div>
-                <div class="column-image fl-wrap full-height">
-                    <div class="bg" data-bg="images/bg/long/5.jpg"></div>
-                    <div class="overlay"></div>
-                    <div class="column-image-anim"></div>
-                </div>
-                <div class="fcw-dec"></div>
-                <div class="fixed-column-tilte fcw-title"><span>Contacts</span></div>
-            </div>
+         
             <!-- fixed-column-wrap end -->
             <!-- column-wrap -->
             <div class="column-wrap  ">
@@ -92,7 +80,7 @@
               <a class="" href="{{ url('/rentals') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>RENTALS</span></a>
             </li>
             <li>
-              <a class="scroll-link fbgs" href="{{ url('/markets') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
+              <a class="scroll-link " href="{{ url('/markets') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
             </li>
             <li>
               <a class="" href="{{ url('/contact') }}" data-bgscr="images/bg/long/4.jpg" data-bgtex="clients"><span>CONTACT</span></a>

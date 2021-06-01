@@ -61,7 +61,7 @@
                           <i class="fal fa-phone"></i><span>Phone :</span><a href="#">562.595.7363</a>
                         </li>
                         <li>
-                          <i class="fal fa-envelope"></i><span>Email :</span><a href="#">lorem@ipsum.com</a>
+                          <i class="fal fa-envelope"></i><span>Email :</span><a href="#">info@johnmphillips.com</a>
                         </li>
                         <li>
                           <i class="fal fa-map-marker"></i><span>Address</span><a href="#">2755 Dawson Ave

@@ -32,7 +32,7 @@
               <a class="" href="{{ url('/rentals') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>RENTALS</span></a>
             </li>
             <li>
-              <a class="scroll-link fbgs" href="{{ url('/markets') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
+              <a class="scroll-link " href="{{ url('/markets') }}" data-bgscr="images/bg/long/13.jpg" data-bgtex="resume"><span>MARKETS</span></a>
             </li>
             <li>
               <a class="" href="{{ url('/contact') }}" data-bgscr="images/bg/long/4.jpg" data-bgtex="clients"><span>CONTACT</span></a>
@@ -47,9 +47,10 @@
         <!--section  -->
         <section class="hidden-section bot-element">
             <div class="">
-                <div class="section-title fl-wrap container ml-5">
+               <div class="container">
+               <div class="section-title fl-wrap container ">
                     <h3>Rentals</h3>
-                </div>
+                </div></div>
                 <!--process-wrap  -->
                 <div class="process-wrap fl-wrap rentalss-content rentals-seccion ">
                     <!--section end -->

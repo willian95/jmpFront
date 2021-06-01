@@ -47,9 +47,11 @@
         <!--section  -->
         <section class="hidden-section bot-element">
             <div class="">
-                <div class="section-title fl-wrap container ml-5">
+              <div class="container">
+              <div class="section-title fl-wrap container ">
                     <h3>SERVICES</h3>
                 </div>
+              </div>
                 <!--process-wrap  -->
                 <div class="process-wrap fl-wrap services-content">
                     <!--section end -->

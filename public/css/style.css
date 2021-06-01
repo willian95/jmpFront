@@ -841,7 +841,7 @@ nav.nav-inner {
 }
 .column-wrap {
     float: right;
-    width: 70%;
+		width: 100%;
     position: relative;
 }
 .portf-wrap , .column-wrap  {
@@ -5028,4 +5028,9 @@ section {
 
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 2560px) {
+	.dark-bg:before {
+    width: 40%;
+}
 }

@@ -11,7 +11,7 @@
 
 
   <!-- fixed-column-wrap -->
-  <div class="fixed-column-wrap">
+  <!----<div class="fixed-column-wrap">
     <div class="progress-bar-wrap">
       <div class="progress-bar color-bg"></div>
     </div>
@@ -24,7 +24,7 @@
     <div class="fixed-column-tilte fdct fcw-title">
       <span id="quote">About me</span>
     </div>
-  </div>
+  </div>-->
   <!-- fixed-column-wrap end-->
   <!-- hero-wrap-->
   <div class="hero-wrap fl-wrap full-height scroll-con-sec home-half-slider" id="sec1">
