@@ -5033,4 +5033,11 @@ section {
 	.dark-bg:before {
     width: 40%;
 }
+.rentals-seccion .dec-img img {
+    height: auto;
+}
+.rentals-seccion  img {
+
+	object-fit: contain;
+}
 }
