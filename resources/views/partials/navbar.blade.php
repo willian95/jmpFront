@@ -1,5 +1,6 @@
 <header class="main-header">
       <a href="{{ url('/') }}" class="logo-holder"><img src="{{asset('images/iso.png') }}" alt="" /></a>
+      <a href="{{ url('/') }}" class="logos "><img src="{{asset('images/logo.png') }}" alt="" /></a>
       <!-- nav-button-wrap-->
       <div class="nav-button but-hol">
         <span class="nos"></span>

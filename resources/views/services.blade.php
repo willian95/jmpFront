@@ -272,9 +272,13 @@
         <div class="limit-box fl-wrap"></div>
     </div>
 </div>
+
+
 <!--content  end -->
 <!--footer-->
 @include("partials.footer")
 <!--footer  end -->
-
+<script>
+  $('.logo-holder').hide();
+</script>
 @endsection

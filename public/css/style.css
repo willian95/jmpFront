@@ -5040,4 +5040,32 @@ section {
 
 	object-fit: contain;
 }
+.main-footer:before, .main-footer:after {
+
+	width: 100%;
+}
+}
+
+.logos {
+	position: absolute;
+    left: 0px;
+    background: rgb(68, 71, 74);
+    height: 90px;
+		transition: .6s;
+		opacity: 0;
+		padding-left: 15px;
+}
+
+.logos img{
+	width: auto;
+	height: 87px;
+	background: #44474a;
+	    padding-left: 15px;
+}
+.page-scroll-nav li {
+	padding-left: 6rem;
+	padding-top: .9rem;
+}
+.page-scroll-nav, .fixed-top-panel {
+	height: 90px;
 }

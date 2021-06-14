@@ -95,7 +95,24 @@
 
 
       });
+      $(window).scroll(function(){
+      
+        
+	  
+		   if ($(this).scrollTop() >= 650 )  {
+        if (($(window).width() >= 768)) {
+          $('.logos').css('opacity', '1');
+        $('.logo-holder').hide();
+        }
 
+      
+       } else {
+        $('.logo-holder').show();
+        $('.logos').css('opacity', '0');
+       }
+		
+
+    });
     </script>
   
 
