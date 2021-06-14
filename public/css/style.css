@@ -841,7 +841,7 @@ nav.nav-inner {
 }
 .column-wrap {
     float: right;
-    width: 70%;
+		width: 100%;
     position: relative;
 }
 .portf-wrap , .column-wrap  {
@@ -5028,4 +5028,44 @@ section {
 
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+}
+@media only screen and (min-width: 2560px) {
+	.dark-bg:before {
+    width: 40%;
+}
+.rentals-seccion .dec-img img {
+    height: auto;
+}
+.rentals-seccion  img {
+
+	object-fit: contain;
+}
+.main-footer:before, .main-footer:after {
+
+	width: 100%;
+}
+}
+
+.logos {
+	position: absolute;
+    left: 0px;
+    background: rgb(68, 71, 74);
+    height: 90px;
+		transition: .6s;
+		opacity: 0;
+		padding-left: 15px;
+}
+
+.logos img{
+	width: auto;
+	height: 87px;
+	background: #44474a;
+	    padding-left: 15px;
+}
+.page-scroll-nav li {
+	padding-left: 6rem;
+	padding-top: .9rem;
+}
+.page-scroll-nav, .fixed-top-panel {
+	height: 90px;
 }
