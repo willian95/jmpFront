@@ -42,10 +42,6 @@
     </div>
     <!--option-panel end -->
 
-
-
-
-
     <!-- SLIDER TEXTOS DEL BANER YI -->
     <div class="hero-slider-wrap fl-wrap full-height">
       <div class="hero-slider fs-gallery-wrap fl-wrap full-height">
@@ -64,11 +60,11 @@
                 </div>
                 <h1 class="text-banner">
                   We partner in your projects, providing <span>high quality services </span> through <span>experienced personnel.</span>
-
                 </h1>
                 <h4>
                   John M Phillips is an independent energy services company, with international presence, providing a broad range of specialized equipment and services to the oil, gas, geothermal and mining industries
                 </h4>
+                <img class="logo-banner" src="{{asset('images/logo-m.png') }}" alt="">
                 <div class="clearfix"></div>
                 <!--- <a href="portfolio.html" class="btn ajax fl-btn color-bg">My portfolio</a>--->
               </div>
