@@ -18,7 +18,7 @@
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/solid.min.css">
   <!-- Bootstrap theme -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css" />
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="{{ asset('css/custom.css') }}" />
@@ -54,67 +54,69 @@
   </div>
   <!-- Main end -->
 
-    <script src="{{asset('js/jquery.min.js') }}"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
-    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
-    <script src="{{asset('js/plugins.js') }}"></script>
-    <script src="{{asset('js/scripts.js') }}"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="{{asset('js/jquery.min.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+  <script src="{{asset('js/plugins.js') }}"></script>
+  <script src="{{asset('js/scripts.js') }}"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <script>
+  <script>
+    $("#formSubmit").submit(function(e) {
 
-      $("#formSubmit").submit(function(e) {
+      e.preventDefault(); // avoid to execute the actual submit of the form.
+      let name = $("#form-name").val()
+      let email = $("#form-email").val()
+      let company = $("#form-company").val()
+      let address = $("#form-address").val()
+      let message = $("#form-message").val()
 
-        e.preventDefault(); // avoid to execute the actual submit of the form.
-        let name =    $("#form-name").val()
-        let email =   $("#form-email").val()
-        let company = $("#form-company").val()
-        let address = $("#form-address").val()
-        let message = $("#form-message").val()
+      $.ajax({
+        type: "POST",
+        url: "{{url('/contact-form')}}",
+        data: {
+          name: name,
+          email: email,
+          company: company,
+          address: address,
+          text: message,
+          _token: "{{ csrf_token() }}"
+        }, // serializes the form's elements.
+        success: function(data) {
+          swal({
+            text: data.msg,
+            icon: "success"
+          })
 
-        $.ajax({
-          type: "POST",
-          url: "{{url('/contact-form')}}",
-          data: {name: name, email: email, company: company, address: address, text: message, _token: "{{ csrf_token() }}"}, // serializes the form's elements.
-          success: function(data)
-          {
-            swal({
-              text:data.msg,
-              icon:"success"
-            })
+          $("#form-name").val("")
+          $("#form-email").val("")
+          $("#form-company").val("")
+          $("#form-address").val("")
+          $("#form-message").val("")
 
-            $("#form-name").val("")
-            $("#form-email").val("")
-            $("#form-company").val("")
-            $("#form-address").val("")
-            $("#form-message").val("")
-
-          }
-        });
-
-
-      });
-      $(window).scroll(function(){
-      
-        
-	  
-		   if ($(this).scrollTop() >= 650 )  {
-        if (($(window).width() >= 768)) {
-          $('.logos').css('opacity', '1');
-        $('.logo-holder').hide();
         }
+      });
 
-      
-       } else {
-        $('.logo-holder').show();
-        $('.logos').css('opacity', '0');
-       }
-		
 
     });
-    </script>
-  
+    $(window).scroll(function() {
+      if ($(this).scrollTop() >= 650) {
+        if (($(window).width() >= 768)) {
+          $('.logos').css('opacity', '1');
+          $('.logo-holder').hide();
+        }
+      } else {
+        $('.logo-holder').show();
+        $('.logos').css('opacity', '0');
+      }
+    });
+    $(".nav-button").on("click", function () {
+      $('.logos').css('opacity', '0');
+      $('.logo-holder').show();
+});
+  </script>
+
 
   @stack("scripts")
 
